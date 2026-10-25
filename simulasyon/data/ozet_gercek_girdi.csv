@@ -1,0 +1,9 @@
+teslim_ay,model,kohort,ort_marj,min_marj,zarar,ort_usd
+6,eski_girdi=kur,67,0.4268,0.214,0,0.3
+6,yeni_girdi=TUIK_malzeme,67,0.4211,0.1912,0,0.3
+12,eski_girdi=kur,61,0.2909,0.0859,0,0.1063
+12,yeni_girdi=TUIK_malzeme,61,0.272,0.0263,0,0.1063
+18,eski_girdi=kur,55,0.1582,-0.0674,6,-0.0781
+18,yeni_girdi=TUIK_malzeme,55,0.1238,-0.1181,14,-0.0781
+24,eski_girdi=kur,49,0.026,-0.1735,22,-0.2496
+24,yeni_girdi=TUIK_malzeme,49,-0.0163,-0.2249,26,-0.2496
