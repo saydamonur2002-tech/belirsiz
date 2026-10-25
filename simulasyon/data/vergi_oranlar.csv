@@ -1,0 +1,16 @@
+kat,brut_ay,senaryo,net_ay,gv_ay,damga_ay,net_brut,net_isveren
+1.0,33030,Mevcut (istisna=asgari ucret),28076,0,0,0.85,0.6982
+1.0,33030,A1 istisna=bekar yasam maliyeti (48.885 TL),28076,0,0,0.85,0.6982
+1.0,33030,A2 istisna=yoksulluk siniri (123.130 TL),28076,0,0,0.85,0.6982
+1.3,42939,Mevcut (istisna=asgari ucret),34517,1906,75,0.8039,0.6603
+1.3,42939,A1 istisna=bekar yasam maliyeti (48.885 TL),36423,0,75,0.8482,0.6967
+1.3,42939,A2 istisna=yoksulluk siniri (123.130 TL),36423,0,75,0.8482,0.6967
+1.6,52848,Mevcut (istisna=asgari ucret),40590,4180,150,0.7681,0.6308
+1.6,52848,A1 istisna=bekar yasam maliyeti (48.885 TL),44770,0,150,0.8472,0.6958
+1.6,52848,A2 istisna=yoksulluk siniri (123.130 TL),44770,0,150,0.8472,0.6958
+2.0,66060,Mevcut (istisna=asgari ucret),48688,7212,251,0.737,0.6054
+2.0,66060,A1 istisna=bekar yasam maliyeti (48.885 TL),53938,1962,251,0.8165,0.6706
+2.0,66060,A2 istisna=yoksulluk siniri (123.130 TL),55900,0,251,0.8462,0.695
+2.5,82575,Mevcut (istisna=asgari ucret),58810,11003,376,0.7122,0.585
+2.5,82575,A1 istisna=bekar yasam maliyeti (48.885 TL),64061,5752,376,0.7758,0.6372
+2.5,82575,A2 istisna=yoksulluk siniri (123.130 TL),69813,0,376,0.8454,0.6944
