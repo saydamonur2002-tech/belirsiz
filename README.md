@@ -2,6 +2,8 @@
 
 > Taslak kavram belgesidir. Hukuki metin değildir; mevzuat atıfları ve sayısal değerler ileride uzman görüşüyle netleştirilecektir.
 
+> **Simülasyon:** %30 marj tavanı ve 6 ay kur endeksli fiyat kuralının gerçek verilerle backtest'i için bkz. [simulasyon/SIMULASYON.md](simulasyon/SIMULASYON.md).
+
 ## 1. Amaç ve Vizyon
 
 **Ana misyon:** Konut inşaatında **girdi maliyetlerini (işçilik hariç) belirli bir eşikte tutmak**; böylece **düşük maliyetle yüksek dayanıklı yapı** üretimini mümkün kılmak. Bu misyon, iç ranttan bağımsız, ölçekli ve çok üreticili **yerli endüstriyel tedarik** yapısıyla desteklenir.
