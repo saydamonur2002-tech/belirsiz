@@ -352,3 +352,13 @@ Ayrıntı ve 12 varsayım: [simulasyon/ISTIHDAM_MODULER.md](simulasyon/ISTIHDAM_
 | Kayıtlıya geçen | — | 83 bin | 140 bin | 188 bin |
 
 Modüler senaryoda iş şantiyeden fabrikaya kayar. Net artış talep varsayımına bağlıdır; talep artmazsa net etki negatif olabilir.
+
+### 16.3 İşsizlik etkisi
+Ayrıntı: [simulasyon/ISSIZLIK.md](simulasyon/ISSIZLIK.md). Baz: TÜİK Ağustos 2026, işgücü 35,25 milyon, işsizlik %7,8, atıl işgücü %31.
+| Senaryo | Tüm sektör (1:1 / ~%40) | %10 kapsam (1:1 / ~%40) |
+|---|---|---|
+| Normal | 0 ile −0,72 / −0,32 puan | 0 ile −0,07 / −0,03 puan |
+| Modüler orta | −0,66 / −0,30 puan | −0,07 / −0,03 puan |
+| Modüler, talep artışı yok | +0,48 / +0,19 puan | +0,05 / +0,02 puan |
+
+Yeni işlerin çoğu işgücü dışından gelenlerle dolar. Modüler geçiş ise orta senaryoda brüt 479 bin şantiye işini yerinden eder ve bu, geçici geçiş işsizliği yaratır.
