@@ -239,19 +239,6 @@ Yerlileştirme fiyat seviyesini düşürür, ancak 6 aylık güncellemenin oynak
 - **Tedarik zinciri şeffaflığı:** Onaylı tedarikçi sicili, menşe, performans beyanı ve test belgelerinin dijital kaydı, parti bazlı izlenebilirlik.
 - **Kalite güvencesi:** Üreticilerde periyodik üretim denetimi (fabrika üretim kontrolü) ve numune testleri.
 
-### 10.1 Modüler uzman firma ağı (aracıların tasfiyesi)
-
-- **Karar:** Sistem tek bir üretim firması olarak değil, modüler ve uzmanlaşmış firmalardan oluşan bir ağ olarak kurulur.
-- **Tedarik zinciri:** üretici veya uzman firma → platform kataloğu → müteahhit/alıcı. Bayi, toptancı ve taşeron zinciri kısaltılır.
-- **İş paketleri:** kaba yapı, prefabrik bileşen, doğrama, tesisat, elektrik, yalıtım, ince iş.
-- **Her pakette:**
-  - birden çok onaylı uzman firma;
-  - standart arayüzler ve katalog;
-  - doğrudan sözleşme ve emanet hesapla doğrudan ödeme;
-  - rekabetçi kota (tek firmanın payı sınırlı).
-- **Katmanlı maliyet etkisi:** tüm mekanizmalarla konut birim maliyeti düşük senaryoda %4,8, orta senaryoda %14,8, yüksek senaryoda %29,9 düşer (üst sınır iyimser). Ağ yapısının (bayi, taşeron, modüler) orta senaryodaki katkısı ~5,4 puan.
-- Ayrıntı ve kaynaklar: [simulasyon/MODULER_AG.md](simulasyon/MODULER_AG.md)
-
 ## 11. Organizasyon Şeması
 
 ```mermaid
@@ -271,9 +258,6 @@ flowchart TD
     BA --> V[Dijital Platform ve Veri Yönetimi]
     BA --> R[Bölge Müdürlükleri]
     E --> TS[Onaylı Yerli Tedarikçi Sicili]
-    E --> MA[Modüler Uzman Firma Ağı ve Katalog]
-    MA --> P1[Paketler: kaba yapı, prefabrik, doğrama, tesisat, elektrik, yalıtım, ince iş]
-    MA --> PK[Paket Koordinasyonu ve Arayüz Sorumluluğu]
     T --> HD[Hedefli GV + damga desteği - platform KOBİ]
     D --> BY
     BY -->|bildirim + yaptırım önerisi| B
@@ -300,9 +284,6 @@ flowchart TD
 - **G1 KOBİ mekanizması — ölçek ekonomisi kaybı:** Küçük üreticinin birim maliyeti yüksek olabilir. Çimento (klinker) özellikle ölçek ve sermaye yoğundur: 2024'te üretimin %94'ü entegre tesislerde (ETKB). *Çözüm (karar):* Maliyetli/ölçek yoğun kalemler (klinker/çimento) orta ölçekli birimlerde, az ölçek yoğun halkalar (öğütme, hazır beton, tuğla/gazbeton, prefabrik) küçük ve orta birimlerde üretilir (Bölüm 7.1). Hazır betonda mevcut marj zaten %10'un altında olabilir (Oyak 2025 FAVÖK %6,2); %10 tavanı fiyatı düşürmeyebilir.
 - **G1 KOBİ mekanizması — devlet yardımı ve rekabet:** Alım garantisi ve seçici destek, rekabet hukuku ve devlet yardımları denetimi bakımından gerekçelendirilmeli. Ölçek sınırları büyük oyunculara ayrımcılık itirazı doğurabilir. Rekabet Kurumu ile koordinasyon gerekli.
 - **G1 KOBİ mekanizması — kalite riski:** Çok sayıda küçük üretici kalite dağılımını genişletebilir. Katalog standardı, numune/test ve sicil zorunlu.
-- **Modüler ağ — koordinasyon maliyeti:** Paket ve arayüz sayısı arttıkça koordinasyon maliyeti büyür; düşük senaryoda taşeron tasarrufunu sıfırlayabilir. *Çözüm:* standart arayüz ve platformda paket koordinatörü.
-- **Modüler ağ — sorumluluk dağınıklığı:** Kusurun hangi pakete ait olduğu belirsizleşebilir. *Çözüm:* sözleşmede sorumluluk matrisi ve paket bazlı mesleki sorumluluk sigortası.
-- **Modüler ağ — mevcut bayi ağının direnci:** TOBB, bayi kanalının ağırlığını koruyacağını öngörüyor. *Çözüm:* bayilerin lojistik ve depo hizmet sağlayıcısına dönüşmesi için geçiş yolu.
 - **Bürokratik yük ve kayıt dışılık:** KOBİ'ler için sade, dijital süreçler.
 - **Kurumsal bağımsızlık ve yolsuzluk riski:** Tedarikçi onayı ve teşvik dağıtımında şeffaflık, rotasyon, dış denetim.
 - **Veri kalitesi ve finansman.**
@@ -324,14 +305,14 @@ flowchart TD
 - Ayrıntı: [simulasyon/VERGI_SUBVANSIYON.md](simulasyon/VERGI_SUBVANSIYON.md)
 
 ## 15. Varsayımsız değerlendirme (v14)
-Yalnız kaynaklı verilerle kanıtlanabilen konut birim maliyeti düşüşü: **alt sınır %0, üst sınır yaklaşık %6** (çimento ≤%1,6; hedefli vergi desteği ≤%2,7; bayi marjı ≤%2,1). Orta senaryodaki %14,8 kaynakla desteklenmiyor; taşeron, modüler ağ ve karma oynaklık katkıları hesaplanamıyor. Resmî İME ile yapılan backtest'te 6 aylık kural, sabit fiyatta zarar eden kohortları 87'den 15'e indiriyor; ortalama marj ~%12 (%30 değil). Alıcı fiyatı kohortların %73'ünde BIS konut artışının altında. Ayrıntı: [simulasyon/VARSAYIMSIZ.md](simulasyon/VARSAYIMSIZ.md)
+Yalnız kaynaklı verilerle kanıtlanabilen konut birim maliyeti düşüşü: **alt sınır %0, üst sınır yaklaşık %6** (çimento ≤%1,6; hedefli vergi desteği ≤%2,7; bayi marjı ≤%2,1). Orta senaryodaki %14,8 kaynakla desteklenmiyor; taşeron ve karma oynaklık katkıları hesaplanamıyor. Resmî İME ile yapılan backtest'te 6 aylık kural, sabit fiyatta zarar eden kohortları 87'den 15'e indiriyor; ortalama marj ~%12 (%30 değil). Alıcı fiyatı kohortların %73'ünde BIS konut artışının altında. Ayrıntı: [simulasyon/VARSAYIMSIZ.md](simulasyon/VARSAYIMSIZ.md)
 
 ## 16. İstihdam etkisi (varsayımsız)
 Ayrıntı: [simulasyon/ISTIHDAM.md](simulasyon/ISTIHDAM.md)
 - Baz: TÜİK 2025 inşaat istihdamı 2,224 milyon. Fiyat düşüşü %5–9 (USD).
 - Konut talebi esnekliği −0,85/−0,95 (Solak & Kabadayı 2016) alınırsa talep %4–8,5 artar. Bu durumda **her %10 platform kapsamı başına doğrudan 9–19 bin iş** çıkar; Tip II çarpanla (1,678) bu 16–32 bin olur.
 - TCMB (Ceritoğlu 2017) esnekliği anlamsız buluyor, bu yüzden kanıtlanabilir alt sınır **0**.
-- Kayıt dışılıktan kayıtlıya geçiş, aracı tasfiyesi ve modüler ağ etkileri hesaplanamıyor; bunlar pilot veri gerektirir.
+- Kayıt dışılıktan kayıtlıya geçiş, ve aracı tasfiyesi etkileri hesaplanamıyor; bunlar pilot veri gerektirir.
 
 ### 16.1 İnşaat dışı girdi sektörleri
 Ayrıntı: [simulasyon/ISTIHDAM_SEKTOREL.md](simulasyon/ISTIHDAM_SEKTOREL.md). Kaynak: WIOD 2016 Türkiye G-Ç tablosu (2014, yurtiçi) ve SEA istihdamı.
@@ -341,24 +322,16 @@ Ayrıntı: [simulasyon/ISTIHDAM_SEKTOREL.md](simulasyon/ISTIHDAM_SEKTOREL.md). K
 - Hesaplanamayanlar: yerlileştirmenin %28,5'lik ithal girdi payını ne kadar düşüreceği, aracı tasfiyesinin ticaretteki iş kaybı ve 2025 sektörel istihdam güncellemesi.
 
 
-### 16.2 Normal ve modüler senaryo karşılaştırması
-Ayrıntı ve 12 varsayım: [simulasyon/ISTIHDAM_MODULER.md](simulasyon/ISTIHDAM_MODULER.md). Tüm sektör, Tip I.
-| | Normal (varsayımsız) | Modüler düşük | Orta | Yüksek |
-|---|---|---|---|---|
-| Şantiye işi (net) | 0 – +95–190 bin | −52 bin | −183 bin | −412 bin |
-| Fabrikaya kayan iş | 0 | +125 bin | +353 bin | +672 bin |
-| Aracı kaybı | 0 | −12 bin | −44 bin | −105 bin |
-| Net toplam | 0 – +127–255 bin | +94 bin | +234 bin | +374 bin |
-| Kayıtlıya geçen | — | 83 bin | 140 bin | 188 bin |
-
-Modüler senaryoda iş şantiyeden fabrikaya kayar. Net artış talep varsayımına bağlıdır; talep artmazsa net etki negatif olabilir.
+### 16.2 İflasların önlenmesi ve korunan istihdam
+Ayrıntı: [simulasyon/IFLAS_ISTIHDAM.md](simulasyon/IFLAS_ISTIHDAM.md). Kaynak: TOBB kapanış verisi (2025 ilk yarısında 1.652 bina inşaatı firması), inşaat konkordato dosyaları (2025'te 511, tasdik oranı ~%2), SGK 2024 (işyeri başına ~8,7 sigortalı), backtest (zarar eden kohort %83–85 azalıyor).
+- Korunan iş **üst sınırı**: tam kapsamda yılda **~23,7–24,5 bin** (inşaat istihdamının ~%1,1'i); %10 kapsamda ~2,4 bin. Yalnız konkordato tabanında 3,7–3,8 bin.
+- **Alt sınır 0**: zarar→iflas bağı kanıtlanmadı. Faiz ve tahsilat kaynaklı iflaslar modelin dışında.
+- **Hüküm:** Model iflasın bir nedenini (maliyet–sözleşme fiyatı açığı) hedefliyor. İflasları durdurduğu ve istihdamı koruduğu kanıtlı değil; potansiyel etki sınırlı.
 
 ### 16.3 İşsizlik etkisi
 Ayrıntı: [simulasyon/ISSIZLIK.md](simulasyon/ISSIZLIK.md). Baz: TÜİK Ağustos 2026, işgücü 35,25 milyon, işsizlik %7,8, atıl işgücü %31.
 | Senaryo | Tüm sektör (1:1 / ~%40) | %10 kapsam (1:1 / ~%40) |
 |---|---|---|
 | Normal | 0 ile −0,72 / −0,32 puan | 0 ile −0,07 / −0,03 puan |
-| Modüler orta | −0,66 / −0,30 puan | −0,07 / −0,03 puan |
-| Modüler, talep artışı yok | +0,48 / +0,19 puan | +0,05 / +0,02 puan |
 
-Yeni işlerin çoğu işgücü dışından gelenlerle dolar. Modüler geçiş ise orta senaryoda brüt 479 bin şantiye işini yerinden eder ve bu, geçici geçiş işsizliği yaratır.
+Yeni işlerin çoğu işgücü dışından gelenlerle dolar.
