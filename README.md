@@ -332,3 +332,11 @@ Ayrıntı: [simulasyon/ISTIHDAM.md](simulasyon/ISTIHDAM.md)
 - Konut talebi esnekliği −0,85/−0,95 (Solak & Kabadayı 2016) alınırsa talep %4–8,5 artar. Bu durumda **her %10 platform kapsamı başına doğrudan 9–19 bin iş** çıkar; Tip II çarpanla (1,678) bu 16–32 bin olur.
 - TCMB (Ceritoğlu 2017) esnekliği anlamsız buluyor, bu yüzden kanıtlanabilir alt sınır **0**.
 - Kayıt dışılıktan kayıtlıya geçiş, aracı tasfiyesi ve modüler ağ etkileri hesaplanamıyor; bunlar pilot veri gerektirir.
+
+### 16.1 İnşaat dışı girdi sektörleri
+Ayrıntı: [simulasyon/ISTIHDAM_SEKTOREL.md](simulasyon/ISTIHDAM_SEKTOREL.md). Kaynak: WIOD 2016 Türkiye G-Ç tablosu (2014, yurtiçi) ve SEA istihdamı.
+- İnşaatta her 100 ek işe karşılık inşaat dışında **34,4 ek iş** (Tip I).
+- Her %10 platform kapsamı başına inşaat dışında **0 – 3.217–6.511** iş, tüm sektörde **0 – 32–65 bin** iş. Bunlar tavan değerlerdir.
+- En çok etkilenenler: toptan ve perakende ticaret, çimento/seramik/cam (C23, çıktısının %27'si inşaata gidiyor), kara taşımacılığı, fabrikasyon metal, ağaç ürünleri.
+- Hesaplanamayanlar: yerlileştirmenin %28,5'lik ithal girdi payını ne kadar düşüreceği, aracı tasfiyesinin ticaretteki iş kaybı ve 2025 sektörel istihdam güncellemesi.
+
