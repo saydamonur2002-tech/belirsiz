@@ -210,20 +210,25 @@ Eski kural ("ilk 6 ay kura endeksli, sonra TL sabit") kaldırılmıştır. Yeni 
 - Her iki durumda da **%30 marj tavanı korunur**: fiyat, gerçekleşen maliyetin 1,30 katını aşamaz.
 - Backtest: [simulasyon/ENDEKS_6AY.md](simulasyon/ENDEKS_6AY.md).
 
-### 9.4 Oynaklık yönetimi
+### 9.4 Oynaklık yönetimi (grup bazlı)
 
-Yerlileştirme fiyat seviyesini düşürür, ancak 6 aylık güncellemenin oynaklığını düşürmez (std ≈ 7,6 puan). Bu nedenle ayrı bir araç gerekir.
+Yerlileştirme fiyat seviyesini düşürür, ancak 6 aylık güncellemenin oynaklığını düşürmez. Karar: her girdi grubu, tedarik yapısına uygun araçla yönetilir.
 
-- **Araç (karar önerisi):** fiyat koridoru + istikrar fonu.
-  - Alıcıya yansıyan 6 aylık artış, son 24 ayın ortalama 6 aylık değişiminin ±10 puan bandında tutulur.
-  - Müteahhide maliyet bazlı fiyat ödenir; aradaki farkı fon öder veya tahsil eder.
-  - Uluslararası dayanak: Almanya Stoffpreisgleitklausel, ABD FHWA fiyat ayarlama maddeleri, Hindistan CPWD 10CA/10CC, NEC4 X1.
-- **Tamamlayıcı:** çelik, çimento ve agrega için KOBİ öncelikli küçük bir tampon stok (Kore PPS, Çin devlet rezervi ve Singapur BCA örnekleri).
-- **Backtest (2019–2025, orta senaryo):**
-  - Oynaklık 7,6'dan 6,6 puana düşer (−%13).
-  - Fon ortalamada yaklaşık 0; azami yük birim maliyetin %24'ü.
+| Grup | Kalemler | Araç |
+|---|---|---|
+| Sınırlı tedarik / yerlileştirilemeyen | PVC reçine, birincil alüminyum, otomasyon/elektronik, hurda; Y kalemlerinin ithal bileşeni (kompresör, bakır, motor) | **Koridor + istikrar fonu**: alıcıya 6 ayda bir trend ±10 puan; fark fondan |
+| Temel ve çoklu üretilen | Çimento, agrega, inşaat demiri, tuğla/gazbeton, seramik; stoklanabilir Y kalemleri | **KOBİ öncelikli tampon stok** (Kore PPS, Çin devlet rezervi, Singapur BCA örnekleri) |
+| Geri kalan | Stoklanamayan G1, Y kalemlerinin yerli kısmı, kalan G2 makine ve teçhizat | **CPWD formülü**: V = P×Q×(I−I₀)/I₀, 3 aylık ortalama endeks, %15 sabit pay |
+| İşçilik | — | Maliyet bazlı 6 aylık güncelleme (9.3) |
+
+- **Backtest (2019–2025, orta senaryo, 24 ay teslim):**
+  - Fonun azami yükü, tüm sepet koridorundaki birim maliyetin %27'sinden %4,6'ya iner.
+  - Stok maliyeti ortalama %0,8.
   - Müteahhit marjı %30, zarar eden kohort yok.
-- Ayrıntı: [simulasyon/OYNAKLIK_ARACLARI.md](simulasyon/OYNAKLIK_ARACLARI.md).
+  - Oynaklık azalışı sınırlı: 7,7'den 7,4 puana (−%5). Tüm sepet koridoru 5,4 puana indirir, ancak fon riski yüksektir.
+- Ayrıntı:
+  - [simulasyon/OYNAKLIK_KARMA.md](simulasyon/OYNAKLIK_KARMA.md)
+  - [simulasyon/OYNAKLIK_ARACLARI.md](simulasyon/OYNAKLIK_ARACLARI.md)
 
 ## 10. Endüstriyel Tedarik ve Yerli Üretim
 
