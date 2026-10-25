@@ -1,0 +1,15 @@
+mekanizma,sinif,varsayim
+6 aylik guncelleme + %30 tavan,tamamen kaynakli,
+Grup bazli endeks,kismen,"65/35, 70/10/20"
+Karma oynaklik,kismen,"grup agirliklari, koridor, stok"
+Olcek+yerlilestirme+%10,kismen,"olcek, G1 payi, yerlilik"
+%10 marj cimento,kaynakli sinir,FAVOK != net marj
+Y yerlilestirme,tamamen varsayim,
+GV istisnasi A1/A2 statik,kismen,"bant ortasi, dagilim tasima"
+A1/A2 geri donusler,tamamen varsayim,
+Hedefli destek birim maliyet,kismen/sinir,"net ucret sozlesmesi, dagilim"
+Hedefli destek mali maliyet,tamamen varsayim,platform payi
+Bayi marji,kaynakli sinir,tam yakalama ust sinir
+Taseron,hesaplanamaz,
+Moduler,hesaplanamaz,
+Koordinasyon maliyeti,tamamen varsayim,
