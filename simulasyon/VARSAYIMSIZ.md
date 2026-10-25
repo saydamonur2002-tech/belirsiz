@@ -30,7 +30,6 @@ Kod: `varsayimsiz.py`. Çıktılar:
 | Hedefli destek mali maliyeti (12–24 mrd TL) | Tamamen varsayım | Platform payı %10–20 |
 | Bayi marjının tasfiyesi | **Kaynaklı (sınır)** | Tüm alımın bayiden geçtiği ve marjın tamamının yakalandığı üst sınır |
 | Taşeron zincirinin kısalması | **Hesaplanamaz** | Taşeronla yapılan iş payı için kaynak yok |
-| Modüler ağ verimliliği | **Hesaplanamaz** | Kaynak aralığı 0 ile −%20, NAO'ya göre ortalama maliyet daha yüksek; işaret bile belirsiz |
 | Koordinasyon maliyeti | Tamamen varsayım | — |
 
 ## 3. Varsayımsız fiyat kuralı backtest'i (2015–2026, aylık kohortlar)
@@ -53,7 +52,6 @@ Kod: `varsayimsiz.py`. Çıktılar:
 | Hedefli GV + damga desteği | **0 ile −%2,66 arası** | 2026 tarifesi ve asgari ücret, işçilik %30,9. Alt sınır: asgari ücret üstü dağılım bilinmiyor (inşaatın %71,4'ü asgari ücrette, vergi 0). Üst sınır: SGK ekonomi geneli dağılımı ve net ücret sözleşmesi |
 | Bayi marjı | **−%0,5 ile −%2,1 arası (üst sınır)** | Genel malzeme %52,3 × kaba malzeme bayi marjı %1–4 (ALTSO) |
 | Taşeron zinciri | Hesaplanamaz | — |
-| Modüler ağ | Hesaplanamaz (aralık 0 ile −%20, işaret belirsiz) | McKinsey 2019; NAO |
 | Karma oynaklık araçları | Hesaplanamaz (grup ağırlıkları varsayım) | — |
 | 6 aylık güncelleme + %30 tavan | 0 | Birim maliyeti düşürmez, marjı korur |
 | **Toplam** | **Kanıtlanabilen alt sınır %0; üst sınır ≈ −%6,2** (1,55 + 2,66 + 2,09) | — |
@@ -62,7 +60,7 @@ Kod: `varsayimsiz.py`. Çıktılar:
 1. **"Orta senaryoda −%14,8 (yüksekte −%29,9)":** Kaynakla desteklenmiyor. Kaynaklı üst sınır ≈ %6.
 2. **"Zarar eden kohort yok, marj %30":** Resmî endeksle, teslim anında güncelleme yapılmadığında 116–122 kohorttan 15'i zararda; ortalama marj ~%12.
 3. **"Ölçek + yerlileştirme −%7,1":** Ölçek ve G1 payı varsayım. Kaynaklı tek kalem olan çimentoda etki ≤ %1,6.
-4. **"Taşeron −%2 ve modüler −%2":** Hesaplanamaz.
+4. **"Taşeron −%2":** Hesaplanamaz.
 5. **"Karma araçlar −%0,2" ve fon/stok yükü rakamları:** Grup ağırlıkları varsayım olduğu için hesaplanamaz.
 6. **Hedefli destek için "%2,8–3,1" ve "12–24 mrd TL":** Birim maliyet etkisi yalnızca üst sınır olarak (≤ %2,66) kalıyor. Mali maliyet varsayıma bağlı.
 7. **A1/A2 net etkileri (geri dönüşler):** Varsayım. Sağlam kalan, statik kaybın büyüklük sırası (yüz milyarlarca TL) ve "devlet daha az toplar" sonucu.

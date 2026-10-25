@@ -35,5 +35,4 @@ Not: Fabrikasyon metalin bağlı istihdamı nihai talepten hesaplanır; doğruda
 - **Güncel sektörel istihdam:** Tablo 2014 yapısını kullanıyor. TÜİK'in 2025 NACE-2 haneli istihdamı ve SGK sektörel sigortalı serisi bu çalışmada çekilmedi. Verimlilik 2014'ten bu yana arttıysa (kişi / üretim düştüyse) rakamlar olduğundan yüksek çıkar.
 - **Yerlileştirmenin ithalat sızıntısını değiştirmesi:** 2014'te inşaatın ara girdilerinin %28,5'i ithaldi. Yerlileştirme bu payı düşürürse yurtiçi iş artar. Ancak ne kadar artacağı, yeni tesislerin işgücü yoğunluğuna bağlı ve bu veri yok.
 - **Ticaret satırları (G46/G47):** Aracı tasfiyesi bu sektörlerde iş **azaltır**. Tablodaki artış, aracıların yerinde kaldığı yapıya göre hesaplandı. Tasfiyenin net etkisi pilot verisi gerektirir.
-- **Modüler ağ:** Prefabrikasyon işi inşaattan C23 ve C25'e kaydırabilir. Toplam iş sayısı değişmeden dağılım değişebilir.
 - **Kapsam:** Platformun pazar payı bilinmiyor. Rakamlar her %10 kapsam başına verildi.
