@@ -210,6 +210,21 @@ Eski kural ("ilk 6 ay kura endeksli, sonra TL sabit") kaldırılmıştır. Yeni 
 - Her iki durumda da **%30 marj tavanı korunur**: fiyat, gerçekleşen maliyetin 1,30 katını aşamaz.
 - Backtest: [simulasyon/ENDEKS_6AY.md](simulasyon/ENDEKS_6AY.md).
 
+### 9.4 Oynaklık yönetimi
+
+Yerlileştirme fiyat seviyesini düşürür, ancak 6 aylık güncellemenin oynaklığını düşürmez (std ≈ 7,6 puan). Bu nedenle ayrı bir araç gerekir.
+
+- **Araç (karar önerisi):** fiyat koridoru + istikrar fonu.
+  - Alıcıya yansıyan 6 aylık artış, son 24 ayın ortalama 6 aylık değişiminin ±10 puan bandında tutulur.
+  - Müteahhide maliyet bazlı fiyat ödenir; aradaki farkı fon öder veya tahsil eder.
+  - Uluslararası dayanak: Almanya Stoffpreisgleitklausel, ABD FHWA fiyat ayarlama maddeleri, Hindistan CPWD 10CA/10CC, NEC4 X1.
+- **Tamamlayıcı:** çelik, çimento ve agrega için KOBİ öncelikli küçük bir tampon stok (Kore PPS, Çin devlet rezervi ve Singapur BCA örnekleri).
+- **Backtest (2019–2025, orta senaryo):**
+  - Oynaklık 7,6'dan 6,6 puana düşer (−%13).
+  - Fon ortalamada yaklaşık 0; azami yük birim maliyetin %24'ü.
+  - Müteahhit marjı %30, zarar eden kohort yok.
+- Ayrıntı: [simulasyon/OYNAKLIK_ARACLARI.md](simulasyon/OYNAKLIK_ARACLARI.md).
+
 ## 10. Endüstriyel Tedarik ve Yerli Üretim
 
 - **Rantı azaltma:** Aracı katmanların ve spekülatif fiyatlamanın azaltılması; üreticiden şantiyeye kısa ve izlenebilir tedarik zinciri.
