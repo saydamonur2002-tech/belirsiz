@@ -340,3 +340,15 @@ Ayrıntı: [simulasyon/ISTIHDAM_SEKTOREL.md](simulasyon/ISTIHDAM_SEKTOREL.md). K
 - En çok etkilenenler: toptan ve perakende ticaret, çimento/seramik/cam (C23, çıktısının %27'si inşaata gidiyor), kara taşımacılığı, fabrikasyon metal, ağaç ürünleri.
 - Hesaplanamayanlar: yerlileştirmenin %28,5'lik ithal girdi payını ne kadar düşüreceği, aracı tasfiyesinin ticaretteki iş kaybı ve 2025 sektörel istihdam güncellemesi.
 
+
+### 16.2 Normal ve modüler senaryo karşılaştırması
+Ayrıntı ve 12 varsayım: [simulasyon/ISTIHDAM_MODULER.md](simulasyon/ISTIHDAM_MODULER.md). Tüm sektör, Tip I.
+| | Normal (varsayımsız) | Modüler düşük | Orta | Yüksek |
+|---|---|---|---|---|
+| Şantiye işi (net) | 0 – +95–190 bin | −52 bin | −183 bin | −412 bin |
+| Fabrikaya kayan iş | 0 | +125 bin | +353 bin | +672 bin |
+| Aracı kaybı | 0 | −12 bin | −44 bin | −105 bin |
+| Net toplam | 0 – +127–255 bin | +94 bin | +234 bin | +374 bin |
+| Kayıtlıya geçen | — | 83 bin | 140 bin | 188 bin |
+
+Modüler senaryoda iş şantiyeden fabrikaya kayar. Net artış talep varsayımına bağlıdır; talep artmazsa net etki negatif olabilir.
