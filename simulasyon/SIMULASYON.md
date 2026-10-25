@@ -1,5 +1,7 @@
 # Fiyat Kuralı Simülasyonu (Backtest)
 
+> **Güncelleme:** Girdi maliyetinin gerçek TÜİK verileriyle analizi ve simülasyonun yeniden çalıştırılması için bkz. [GIRDI_VERILERI.md](GIRDI_VERILERI.md).
+
 Kod: [`simulasyon.py`](simulasyon.py) · Veriler: [`data/`](data/) · Çalıştırma: `python3 simulasyon.py`
 
 ## 1. Test edilen kural ve varsayımlar
