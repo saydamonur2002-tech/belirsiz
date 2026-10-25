@@ -128,6 +128,17 @@ Teşvikler **performansı kanıtlanmış** yüklenicilere ve projelere verilir v
 - **Puanlama:** Kalite skoru, yerli girdi oranı, eşik uyumu, şikâyet geçmişi, zamanında teslim, maliyet şeffaflığı, enerji sınıfı.
 - **Geri alma:** Sonradan uyumsuzluk tespit edilirse teşvik iptal edilir ve geri talep edilebilir.
 
+### 7.1 G1 KOBİ üretici ağı ve %10 marj karşılık mekanizması
+
+> **Varsayım / yorum:** G1 (ölçekli üretilebilen) girdilerde KOBİ ölçekli üreticiler (çimento öğütme, hazır beton, tuğla/gazbeton, seramik, prefabrik bileşen vb.) platforma **%10 kâr tavanıyla** üretir; karşılığında platform **karşılama** sağlar: alım garantisi/talep havuzu, yatırım ve kapasite desteği, girdi maliyeti düşüşüne bağlı teşvik. Destek, **ölçek artışı ve birim maliyet düşüşüyle eş zamanlı** kademelenir. Ayrıntı ve simülasyon: [simulasyon/G1_KOBI_MEKANIZMASI.md](simulasyon/G1_KOBI_MEKANIZMASI.md).
+
+- **Gerekçe (tekel rantını kırma):** Çimento sektöründe ilk 10 grup klinker kapasitesinin yaklaşık %66'sını elinde tutuyor (98,3 Mt'nin 65,2 Mt'si, Oyak sunumu, Türk Çimento verisi). Rekabet Kurulu 2024–2025'te Ankara-Kırıkkale, Adana-Osmaniye, Hatay, Aydın ve Malatya'da hazır beton/çimento firmalarına fiyat tespiti ve müşteri/bölge paylaşımı nedeniyle ceza verdi; yalnızca Aydın soruşturmasındaki toplam ceza yaklaşık 190 milyon TL. Çimento faaliyetinde FAVÖK marjı %37,9, hazır betonda %6,2 (Oyak, 2025). Rant ağırlıkla klinker/çimento aşamasında görünüyor.
+- **Uygunluk:** KOBİ tanımı ve tesis bazlı **ölçek üst sınırı**; büyük oyuncuların (ör. entegre çimento grupları) talep havuzundan alabileceği **pay sınırı** (bölge bazında); bağımsızlık şartı (büyük grupla ekonomik bütünlük yok).
+- **Standart ürün kataloğu:** Sınıflı beton, standart tuğla/gazbeton blok, seramik karo ve prefabrik bileşenler için ulusal standarda (Bölüm 6) bağlı tip ürünler; aynı katalog kalemi için karşılaştırılabilir fiyat.
+- **Maliyet şeffaflığı ve denetim:** Açık defter (maliyet kırılımı) beyanı; %10 tavanının dönemsel denetimi; aşımda karşılık desteğinin geri alınması; numune ve kalite testi.
+- **Ölçek–maliyet kademeleri:** Kademe 1 (giriş), kademe 2 ve kademe 3'e geçiş; ölçülen birim maliyet düşüşüne bağlanır (ör. %5 / %10, varsayım). Destek oranı kademe ilerledikçe azalır, alım hacmi artar.
+- **Araçlar:** Bölgesel talep havuzu / çerçeve alım, kapasite yatırım kredisi, ortak lojistik ve depolama, endüstriyel tedarik tabanında (Bölüm 10) rantsız arsa/tesis.
+
 ## 8. Yaptırım Süreci (Uyarı → Bildirim → Yaptırım)
 
 ### 8.1 Süreç
@@ -235,6 +246,9 @@ flowchart TD
 - **AB standartlarının maliyete etkisi:** Tam uyum, girdi maliyeti eşiğini zorlayabilir; eşik hesabı uyumlu referans sepete dayanmalı.
 - **Mevcut kurumlarla örtüşme:** Yapı denetimi, imar, standardizasyon, akreditasyon, sanayi ve tüketici koruma kurumlarıyla görev çakışması.
 - **Yasal dayanak:** Kuruluş kanunu olmadan yetki, yaptırım ve eşik düzenlemesi mümkün değil.
+- **G1 KOBİ mekanizması — ölçek ekonomisi kaybı:** Küçük üreticinin birim maliyeti yüksek olabilir. Çimento (klinker) özellikle ölçek ve sermaye yoğundur: 2024'te üretimin %94'ü entegre tesislerde (ETKB). KOBİ odağı öğütme, hazır beton, tuğla/gazbeton ve prefabrik gibi daha az ölçek yoğun halkalarda daha gerçekçi. Hazır betonda mevcut marj zaten %10'un altında olabilir (Oyak 2025 FAVÖK %6,2); %10 tavanı fiyatı düşürmeyebilir.
+- **G1 KOBİ mekanizması — devlet yardımı ve rekabet:** Alım garantisi ve seçici destek, rekabet hukuku ve devlet yardımları denetimi bakımından gerekçelendirilmeli. Ölçek sınırları büyük oyunculara ayrımcılık itirazı doğurabilir. Rekabet Kurumu ile koordinasyon gerekli.
+- **G1 KOBİ mekanizması — kalite riski:** Çok sayıda küçük üretici kalite dağılımını genişletebilir. Katalog standardı, numune/test ve sicil zorunlu.
 - **Bürokratik yük ve kayıt dışılık:** KOBİ'ler için sade, dijital süreçler.
 - **Kurumsal bağımsızlık ve yolsuzluk riski:** Tedarikçi onayı ve teşvik dağıtımında şeffaflık, rotasyon, dış denetim.
 - **Veri kalitesi ve finansman.**
