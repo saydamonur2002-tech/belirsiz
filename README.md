@@ -89,6 +89,16 @@ Teknik taban kaynakları güncellendiğinde ulusal standardın teknik katmanı d
 - Oran, kalem bazında ve kademeli belirlenir; yerli kapasitenin yetersiz olduğu kalemlerde geçici istisna tanınır.
 - Bu şart, teşvik mekanizmasının (Bölüm 7) ve endüstriyel tedarik yapısının (Bölüm 10) dayanağıdır. Gümrük birliği açısından risk notu için bkz. Bölüm 12.
 
+### 6.2a Girdi grupları
+
+Yerli girdi şartı tüm girdilere aynı şekilde uygulanmaz; girdiler üç gruba ayrılır (ayrıntı ve kaynaklar: [simulasyon/GIRDI_GRUPLARI.md](simulasyon/GIRDI_GRUPLARI.md)):
+
+| Grup | Örnekler | Yerli girdi şartı | Endeks |
+|---|---|---|---|
+| 1 — Ölçekli üretilebilen | Çimento, hazır beton, inşaat demiri, seramik, tuğla/gazbeton, cam, boya, kablo | Tam | TL / TÜİK malzeme endeksi (demir için ayrı çelik alt endeksi) |
+| 2 — İthal makine-teçhizat | Kule vinç, kalıp sistemleri, beton pompası, iş makineleri | Uygulanmaz (yerli muadile puan) | Dolar endeksli; platform kiralama havuzu, ithalat/yatırım teşviki |
+| 3 — Sınırlı yerli üretim | PVC/alüminyum doğrama, yalıtım, tesisat boruları, asansör, ısı pompası/kombi, elektronik/otomasyon | Kademeli + geçici istisna | Karışık (malzeme endeksi + kur) |
+
 ### 6.3 Kalite sınıfları (tabanın üstünde)
 
 Teknik taban ve yerli girdi şartına uyum **asgari şarttır**. A/B/C sınıfları bu tabanın üzerinde ek performans gösterir (C = tam uyum, B ve A = artan dayanıklılık, enerji ve kalite performansı).
@@ -112,6 +122,7 @@ Teknik taban ve yerli girdi şartına uyum **asgari şarttır**. A/B/C sınıfla
 Teşvikler **performansı kanıtlanmış** yüklenicilere ve projelere verilir ve **yerli girdilerle çalışır**.
 
 - **Yerli girdi şartı:** Ulusal standardın parçası olan yerli girdi şartını (Bölüm 6.2) karşılamak teşvikin ön koşuludur; asgari oranı aşan yerli girdi kullanımı ek puan getirir.
+- **Grup bazlı uygulama:** Yerli girdi oranı yalnızca Grup 1 ve (kademeli olarak) Grup 3 için aranır; Grup 2 makine-teçhizat için teşvik, platform kiralama havuzu ve ithalat/yatırım desteği şeklindedir (bkz. Bölüm 6.2a).
 - **Uygunluk:** Standart uyum puanı eşiğin üzerinde, sicili temiz, girdi maliyeti eşiğine uyan yükleniciler.
 - **Araçlar (örnek):** Harç/vergi kolaylıkları, kredi faiz desteği, hızlı izin süreci, "Onaylı Yapı" etiketi; yerli üreticiler için kapasite ve standart bileşen üretim destekleri.
 - **Puanlama:** Kalite skoru, yerli girdi oranı, eşik uyumu, şikâyet geçmişi, zamanında teslim, maliyet şeffaflığı, enerji sınıfı.
