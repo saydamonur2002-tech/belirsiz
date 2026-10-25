@@ -230,6 +230,15 @@ Yerlileştirme fiyat seviyesini düşürür, ancak 6 aylık güncellemenin oynak
   - [simulasyon/OYNAKLIK_KARMA.md](simulasyon/OYNAKLIK_KARMA.md)
   - [simulasyon/OYNAKLIK_ARACLARI.md](simulasyon/OYNAKLIK_ARACLARI.md)
 
+### 9.5 Dijital tahsilat ve hakediş sistemi
+Ayrıntı ve kaynaklar: [simulasyon/TAHSILAT_SISTEMI.md](simulasyon/TAHSILAT_SISTEMI.md)
+- **Proje emanet hesabı:** Alıcı ödemeleri ve kredi projeye özel hesaba girer; müteahhit, taşeron ve tedarikçiye ayrı ayrı (halka çitli) dağıtılır. Emsaller: UK Project Bank Accounts, Avustralya Project Trust Accounts, Hindistan RERA %70 kuralı.
+- **Dijital hakediş:** Kilometre taşı hakedişi yapı denetim onayı ve e-imzayla düzenlenir, e-fatura ile eşleşir ve emanetten otomatik olarak FAST ile serbest bırakılır.
+- **Süre ve faiz:** Azami 60 gün, sözleşmede süre yoksa 30 gün (TTK m.1530). Gecikme faizi otomatik hesaplanır ve sonraki hakedişten kesilir.
+- **Uyuşmazlık:** Uzlaştırma merkezinde 28 günlük hızlı geçici karar (UK/Avustralya adjudication emsali); yargı yolu açık.
+- **Yaptırım:** Platform KEP ile uyarı ve bildirim gönderir, Bakanlık yaptırım uygular (§8).
+- **Kanıt durumu:** Ödeme süresini kısalttığı kanıtlı (Highways England'da 19 gün, PBA olmadan 100 güne kadar). İflası azalttığı kanıtlı değil.
+
 ## 10. Endüstriyel Tedarik ve Yerli Üretim
 
 - **Rantı azaltma:** Aracı katmanların ve spekülatif fiyatlamanın azaltılması; üreticiden şantiyeye kısa ve izlenebilir tedarik zinciri.
@@ -256,6 +265,7 @@ flowchart TD
     BA --> H[Hukuk İşleri]
     BA --> U[Uyuşmazlık ve Uzlaştırma Merkezi]
     BA --> V[Dijital Platform ve Veri Yönetimi]
+    V --> TH[Dijital Hakediş ve Proje Emanet Hesabı]
     BA --> R[Bölge Müdürlükleri]
     E --> TS[Onaylı Yerli Tedarikçi Sicili]
     T --> HD[Hedefli GV + damga desteği - platform KOBİ]
@@ -327,6 +337,7 @@ Ayrıntı: [simulasyon/IFLAS_ISTIHDAM.md](simulasyon/IFLAS_ISTIHDAM.md). Kaynak:
 - Korunan iş **üst sınırı**: tam kapsamda yılda **~23,7–24,5 bin** (inşaat istihdamının ~%1,1'i); %10 kapsamda ~2,4 bin. Yalnız konkordato tabanında 3,7–3,8 bin.
 - **Alt sınır 0**: zarar→iflas bağı kanıtlanmadı. Faiz ve tahsilat kaynaklı iflaslar modelin dışında.
 - **Hüküm:** Model iflasın bir nedenini (maliyet–sözleşme fiyatı açığı) hedefliyor. İflasları durdurduğu ve istihdamı koruduğu kanıtlı değil; potansiyel etki sınırlı.
+- **Tahsilat sistemi eklenince (§9.5):** İflasların ~%25'i tahsilat kaynaklı (Hazine 2018). Birleşik üst sınır **25,0–25,5 bin iş/yıl** (~%1,1), %10 kapsamda ~2,5 bin; alt sınır yine 0. Ayrıntı: [simulasyon/TAHSILAT_SISTEMI.md](simulasyon/TAHSILAT_SISTEMI.md)
 
 ### 16.3 İşsizlik etkisi
 Ayrıntı: [simulasyon/ISSIZLIK.md](simulasyon/ISSIZLIK.md). Baz: TÜİK Ağustos 2026, işgücü 35,25 milyon, işsizlik %7,8, atıl işgücü %31.
