@@ -33,3 +33,7 @@ Risk altındaki iş = yıllık kapanış/konkordato × 8,7 kişi. Korunan iş ü
 - **İflasları durdurur mu? Hayır, tamamen değil; kanıtlanmış olarak da değil.** Model iflas nedenlerinden yalnızca birini, sözleşme fiyatı ile maliyet arasındaki açığı, hedefliyor. Backtest'te bu nedenle zarar eden kohortları %83–85 azaltıyor. Faiz ve tahsilat kaynaklı iflaslara etkisi yok.
 - **İstihdamı korur mu? Sınırlı ölçüde ve yalnızca üst sınır olarak.** Tam kapsamda en fazla yaklaşık 24 bin iş/yıl, yani inşaat istihdamının yaklaşık %1,1'i. %10 kapsamda yaklaşık 2,4 bin. Kanıtlanabilen alt sınır 0.
 - **Ölçütü karşılıyor mu? Kanıtlı olarak hayır, potansiyel olarak kısmen.** Karşılandığını göstermek için gereken veri: kapanan ve konkordato ilan eden inşaat firmalarının neden kırılımı (maliyet zararı payı) ve çalışan sayısı (SGK işyeri kapanış kaydı).
+
+## Güncelleme: dijital tahsilat sistemi eklendi
+Ayrıntı: [TAHSILAT_SISTEMI.md](TAHSILAT_SISTEMI.md). İflasların ~%25'i tahsilat kaynaklı (Hazine 2018). Maliyet kuralı ile tahsilat sistemi birlikte uygulanınca korunan iş üst sınırı tam kapsamda **25.000–25.500 iş/yıl** (inşaat istihdamının %1,12–1,15'i), %10 kapsamda ~2.500; konkordato tabanında 3.900–4.000. **Alt sınır 0.**
+- **Güncel hüküm:** Tahsilat sistemi faiz dışındaki ikinci büyük nedeni (alacak tahsilatı) kapsama alıyor. Ancak yurtdışında bu tür sistemlerin iflası azalttığı kanıtlanmadı. Ölçüt kanıtlı olarak yine karşılanmıyor, potansiyel olarak kısmen karşılanıyor. Faiz/finansman kaynaklı iflaslar hâlâ kapsam dışında.
