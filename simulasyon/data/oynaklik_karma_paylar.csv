@@ -1,0 +1,8 @@
+parca,arac,pay_Ara2019,pay_Ara2025
+G1 stoklanabilir,stok,0.2123,0.2084
+G1 stoklanamayan,cpwd,0.2123,0.2084
+Y yerli kisim,cpwd,0.0653,0.0641
+Y ithal bilesen,fon,0.0352,0.025
+G2 kalan makine,cpwd,0.028,0.0199
+G3 kalan sinirli,fon,0.07,0.0592
+Iscilik,maliyet,0.3769,0.4149
