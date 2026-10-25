@@ -2,7 +2,7 @@
 
 > Taslak kavram belgesidir. Hukuki metin değildir; mevzuat atıfları ve sayısal değerler ileride uzman görüşüyle netleştirilecektir.
 
-> **Simülasyon:** %30 marj tavanı ve 6 ay kur endeksli fiyat kuralının gerçek verilerle backtest'i için bkz. [simulasyon/SIMULASYON.md](simulasyon/SIMULASYON.md).
+> **Simülasyon:** %30 marj tavanı ve fiyat kurallarının gerçek verilerle backtest'i için bkz. [simulasyon/SIMULASYON.md](simulasyon/SIMULASYON.md); güncel kural (6 aylık maliyet/kur bazlı güncelleme) için [simulasyon/ENDEKS_6AY.md](simulasyon/ENDEKS_6AY.md); G2/G3 yerlileştirme değerlendirmesi için [simulasyon/YERLILESTIRME_2YIL.md](simulasyon/YERLILESTIRME_2YIL.md).
 
 ## 1. Amaç ve Vizyon
 
@@ -133,6 +133,7 @@ Teşvikler **performansı kanıtlanmış** yüklenicilere ve projelere verilir v
 > **Varsayım / yorum:** G1 (ölçekli üretilebilen) girdilerde KOBİ ölçekli üreticiler (çimento öğütme, hazır beton, tuğla/gazbeton, seramik, prefabrik bileşen vb.) platforma **%10 kâr tavanıyla** üretir; karşılığında platform **karşılama** sağlar: alım garantisi/talep havuzu, yatırım ve kapasite desteği, girdi maliyeti düşüşüne bağlı teşvik. Destek, **ölçek artışı ve birim maliyet düşüşüyle eş zamanlı** kademelenir. Ayrıntı ve simülasyon: [simulasyon/G1_KOBI_MEKANIZMASI.md](simulasyon/G1_KOBI_MEKANIZMASI.md).
 
 - **Gerekçe (tekel rantını kırma):** Çimento sektöründe ilk 10 grup klinker kapasitesinin yaklaşık %66'sını elinde tutuyor (98,3 Mt'nin 65,2 Mt'si, Oyak sunumu, Türk Çimento verisi). Rekabet Kurulu 2024–2025'te Ankara-Kırıkkale, Adana-Osmaniye, Hatay, Aydın ve Malatya'da hazır beton/çimento firmalarına fiyat tespiti ve müşteri/bölge paylaşımı nedeniyle ceza verdi; yalnızca Aydın soruşturmasındaki toplam ceza yaklaşık 190 milyon TL. Çimento faaliyetinde FAVÖK marjı %37,9, hazır betonda %6,2 (Oyak, 2025). Rant ağırlıkla klinker/çimento aşamasında görünüyor.
+- **Ölçek ayrımı (karar):** Az ölçek yoğun G1 kalemleri (hazır beton, tuğla/gazbeton, seramik, prefabrik bileşen, çimento öğütme) **küçük ve orta** birimlerde üretilir. **Maliyetli/ölçek yoğun kalemler (ör. klinker/çimento) küçük değil orta ölçekli birimlerde** üretilir. Ölçek üst sınırı büyük entegre grupların altında, asgari verimli ölçeğin üstünde tanımlanır.
 - **Uygunluk:** KOBİ tanımı ve tesis bazlı **ölçek üst sınırı**; büyük oyuncuların (ör. entegre çimento grupları) talep havuzundan alabileceği **pay sınırı** (bölge bazında); bağımsızlık şartı (büyük grupla ekonomik bütünlük yok).
 - **Standart ürün kataloğu:** Sınıflı beton, standart tuğla/gazbeton blok, seramik karo ve prefabrik bileşenler için ulusal standarda (Bölüm 6) bağlı tip ürünler; aynı katalog kalemi için karşılaştırılabilir fiyat.
 - **Maliyet şeffaflığı ve denetim:** Açık defter (maliyet kırılımı) beyanı; %10 tavanının dönemsel denetimi; aşımda karşılık desteğinin geri alınması; numune ve kalite testi.
@@ -196,6 +197,17 @@ Tüm yaptırımlar ölçülülük ilkesine göre, savunma hakkı tanınarak ve g
 6. **Şeffaflık:** Sözleşme belgelerinde maliyet sınıfı, eşik uyumu ve kalite etiketinin gösterilmesi.
 7. **İtiraz:** Özel koşullar için gerekçeli sapma başvurusu.
 
+### 9.3 Fiyat güncelleme kuralı (6 aylık periyot)
+
+Eski kural ("ilk 6 ay kura endeksli, sonra TL sabit") kaldırılmıştır. Yeni kural:
+
+- Satış fiyatı **6 ayda bir** güncellenir. Amaç marjı korumak ve zararı önlemektir.
+- İki yöntem tanımlanır:
+  - (A) **gerçek maliyet bazlı**: grup bazlı maliyet endeksi (G1 malzeme, G2 kur, G3 karışık, işçilik endeksi);
+  - (B) **kura endeksli** artış.
+- Her iki durumda da **%30 marj tavanı korunur**: fiyat, gerçekleşen maliyetin 1,30 katını aşamaz.
+- Backtest: [simulasyon/ENDEKS_6AY.md](simulasyon/ENDEKS_6AY.md).
+
 ## 10. Endüstriyel Tedarik ve Yerli Üretim
 
 - **Rantı azaltma:** Aracı katmanların ve spekülatif fiyatlamanın azaltılması; üreticiden şantiyeye kısa ve izlenebilir tedarik zinciri.
@@ -246,7 +258,7 @@ flowchart TD
 - **AB standartlarının maliyete etkisi:** Tam uyum, girdi maliyeti eşiğini zorlayabilir; eşik hesabı uyumlu referans sepete dayanmalı.
 - **Mevcut kurumlarla örtüşme:** Yapı denetimi, imar, standardizasyon, akreditasyon, sanayi ve tüketici koruma kurumlarıyla görev çakışması.
 - **Yasal dayanak:** Kuruluş kanunu olmadan yetki, yaptırım ve eşik düzenlemesi mümkün değil.
-- **G1 KOBİ mekanizması — ölçek ekonomisi kaybı:** Küçük üreticinin birim maliyeti yüksek olabilir. Çimento (klinker) özellikle ölçek ve sermaye yoğundur: 2024'te üretimin %94'ü entegre tesislerde (ETKB). KOBİ odağı öğütme, hazır beton, tuğla/gazbeton ve prefabrik gibi daha az ölçek yoğun halkalarda daha gerçekçi. Hazır betonda mevcut marj zaten %10'un altında olabilir (Oyak 2025 FAVÖK %6,2); %10 tavanı fiyatı düşürmeyebilir.
+- **G1 KOBİ mekanizması — ölçek ekonomisi kaybı:** Küçük üreticinin birim maliyeti yüksek olabilir. Çimento (klinker) özellikle ölçek ve sermaye yoğundur: 2024'te üretimin %94'ü entegre tesislerde (ETKB). *Çözüm (karar):* Maliyetli/ölçek yoğun kalemler (klinker/çimento) orta ölçekli birimlerde, az ölçek yoğun halkalar (öğütme, hazır beton, tuğla/gazbeton, prefabrik) küçük ve orta birimlerde üretilir (Bölüm 7.1). Hazır betonda mevcut marj zaten %10'un altında olabilir (Oyak 2025 FAVÖK %6,2); %10 tavanı fiyatı düşürmeyebilir.
 - **G1 KOBİ mekanizması — devlet yardımı ve rekabet:** Alım garantisi ve seçici destek, rekabet hukuku ve devlet yardımları denetimi bakımından gerekçelendirilmeli. Ölçek sınırları büyük oyunculara ayrımcılık itirazı doğurabilir. Rekabet Kurumu ile koordinasyon gerekli.
 - **G1 KOBİ mekanizması — kalite riski:** Çok sayıda küçük üretici kalite dağılımını genişletebilir. Katalog standardı, numune/test ve sicil zorunlu.
 - **Bürokratik yük ve kayıt dışılık:** KOBİ'ler için sade, dijital süreçler.
