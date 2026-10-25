@@ -1,0 +1,17 @@
+teslim_ay,model,kohort,ort,min,zarar
+6,grup_bazli_fiyat,67,0.4218,0.2057,0
+6,grup_bazli_maliyet,67,0.4218,0.2057,0
+6,tek_endeks_kur,67,0.4268,0.214,0
+6,tek_endeks_malzeme,67,0.4211,0.1912,0
+12,grup_bazli_fiyat,61,0.4266,0.2187,0
+12,grup_bazli_maliyet,61,0.275,0.0407,0
+12,tek_endeks_kur,61,0.2909,0.0859,0
+12,tek_endeks_malzeme,61,0.272,0.0263,0
+18,grup_bazli_fiyat,55,0.4456,0.1893,0
+18,grup_bazli_maliyet,55,0.1298,-0.1071,12
+18,tek_endeks_kur,55,0.1582,-0.0674,6
+18,tek_endeks_malzeme,55,0.1238,-0.1181,14
+24,grup_bazli_fiyat,49,0.4826,0.1658,0
+24,grup_bazli_maliyet,49,-0.0087,-0.2134,24
+24,tek_endeks_kur,49,0.026,-0.1735,22
+24,tek_endeks_malzeme,49,-0.0162,-0.2249,26
