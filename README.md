@@ -239,6 +239,19 @@ Yerlileştirme fiyat seviyesini düşürür, ancak 6 aylık güncellemenin oynak
 - **Tedarik zinciri şeffaflığı:** Onaylı tedarikçi sicili, menşe, performans beyanı ve test belgelerinin dijital kaydı, parti bazlı izlenebilirlik.
 - **Kalite güvencesi:** Üreticilerde periyodik üretim denetimi (fabrika üretim kontrolü) ve numune testleri.
 
+### 10.1 Modüler uzman firma ağı (aracıların tasfiyesi)
+
+- **Karar:** Sistem tek bir üretim firması olarak değil, modüler ve uzmanlaşmış firmalardan oluşan bir ağ olarak kurulur.
+- **Tedarik zinciri:** üretici veya uzman firma → platform kataloğu → müteahhit/alıcı. Bayi, toptancı ve taşeron zinciri kısaltılır.
+- **İş paketleri:** kaba yapı, prefabrik bileşen, doğrama, tesisat, elektrik, yalıtım, ince iş.
+- **Her pakette:**
+  - birden çok onaylı uzman firma;
+  - standart arayüzler ve katalog;
+  - doğrudan sözleşme ve emanet hesapla doğrudan ödeme;
+  - rekabetçi kota (tek firmanın payı sınırlı).
+- **Katmanlı maliyet etkisi:** tüm mekanizmalarla konut birim maliyeti düşük senaryoda %4,8, orta senaryoda %14,8, yüksek senaryoda %29,9 düşer (üst sınır iyimser). Ağ yapısının (bayi, taşeron, modüler) orta senaryodaki katkısı ~5,4 puan.
+- Ayrıntı ve kaynaklar: [simulasyon/MODULER_AG.md](simulasyon/MODULER_AG.md)
+
 ## 11. Organizasyon Şeması
 
 ```mermaid
@@ -258,6 +271,10 @@ flowchart TD
     BA --> V[Dijital Platform ve Veri Yönetimi]
     BA --> R[Bölge Müdürlükleri]
     E --> TS[Onaylı Yerli Tedarikçi Sicili]
+    E --> MA[Modüler Uzman Firma Ağı ve Katalog]
+    MA --> P1[Paketler: kaba yapı, prefabrik, doğrama, tesisat, elektrik, yalıtım, ince iş]
+    MA --> PK[Paket Koordinasyonu ve Arayüz Sorumluluğu]
+    T --> HD[Hedefli GV + damga desteği - platform KOBİ]
     D --> BY
     BY -->|bildirim + yaptırım önerisi| B
     B -->|yaptırım kararı| BY
@@ -283,6 +300,9 @@ flowchart TD
 - **G1 KOBİ mekanizması — ölçek ekonomisi kaybı:** Küçük üreticinin birim maliyeti yüksek olabilir. Çimento (klinker) özellikle ölçek ve sermaye yoğundur: 2024'te üretimin %94'ü entegre tesislerde (ETKB). *Çözüm (karar):* Maliyetli/ölçek yoğun kalemler (klinker/çimento) orta ölçekli birimlerde, az ölçek yoğun halkalar (öğütme, hazır beton, tuğla/gazbeton, prefabrik) küçük ve orta birimlerde üretilir (Bölüm 7.1). Hazır betonda mevcut marj zaten %10'un altında olabilir (Oyak 2025 FAVÖK %6,2); %10 tavanı fiyatı düşürmeyebilir.
 - **G1 KOBİ mekanizması — devlet yardımı ve rekabet:** Alım garantisi ve seçici destek, rekabet hukuku ve devlet yardımları denetimi bakımından gerekçelendirilmeli. Ölçek sınırları büyük oyunculara ayrımcılık itirazı doğurabilir. Rekabet Kurumu ile koordinasyon gerekli.
 - **G1 KOBİ mekanizması — kalite riski:** Çok sayıda küçük üretici kalite dağılımını genişletebilir. Katalog standardı, numune/test ve sicil zorunlu.
+- **Modüler ağ — koordinasyon maliyeti:** Paket ve arayüz sayısı arttıkça koordinasyon maliyeti büyür; düşük senaryoda taşeron tasarrufunu sıfırlayabilir. *Çözüm:* standart arayüz ve platformda paket koordinatörü.
+- **Modüler ağ — sorumluluk dağınıklığı:** Kusurun hangi pakete ait olduğu belirsizleşebilir. *Çözüm:* sözleşmede sorumluluk matrisi ve paket bazlı mesleki sorumluluk sigortası.
+- **Modüler ağ — mevcut bayi ağının direnci:** TOBB, bayi kanalının ağırlığını koruyacağını öngörüyor. *Çözüm:* bayilerin lojistik ve depo hizmet sağlayıcısına dönüşmesi için geçiş yolu.
 - **Bürokratik yük ve kayıt dışılık:** KOBİ'ler için sade, dijital süreçler.
 - **Kurumsal bağımsızlık ve yolsuzluk riski:** Tedarikçi onayı ve teşvik dağıtımında şeffaflık, rotasyon, dış denetim.
 - **Veri kalitesi ve finansman.**
@@ -298,5 +318,7 @@ flowchart TD
 6. Pilot kriter seti, girdi maliyeti eşiği ve maliyet modeli
 7. Pilot bölge uygulaması ve değerlendirme
 
-## Gelir vergisi istisnası ve sigorta dışı sübvansiyon (v12)
-İstisnayı bekâr işçinin yaşam maliyetine (48.885 TL) çekmenin yıllık maliyeti ~485 mrd TL; yoksulluk sınırına (123.130 TL) çekmenin ~1,24 trilyon TL. Geri dönüşler kaybın yalnızca %10–25'ini karşılıyor, yani devlet **daha az** topluyor. İnşaatta GV ve damgayı devletin üstlenmesi konut birim maliyetini %2,8–3,1 düşürür; tüm sektör için maliyeti ~121 mrd TL, yalnız platformdaki KOBİ'ler için ~12–24 mrd TL. Ayrıntı: [simulasyon/VERGI_SUBVANSIYON.md](simulasyon/VERGI_SUBVANSIYON.md)
+## 14. Karar: Hedefli sigorta dışı işçilik desteği (v13)
+- **Karar:** Gelir vergisi ve damga vergisi desteği **yalnızca platform kapsamındaki KOBİ inşaatlarına** verilir. Maliyeti yılda ~12–24 mrd TL; işçilik maliyetinde net ücret üzerinden anlaşma yapıldığı varsayımıyla konut birim maliyetini %2,8–3,1 düşürür.
+- **Reddedilen alternatif:** Gelir vergisi istisnasının genişletilmesi. İstisnayı bekâr işçi yaşam maliyetine (A1) çekmenin maliyeti ~485 mrd TL, yoksulluk sınırına (A2) çekmenin ~1,24 trilyon TL. Geri dönüşler kaybın yalnızca %10–25'ini karşılıyor; devlet daha az topluyor.
+- Ayrıntı: [simulasyon/VERGI_SUBVANSIYON.md](simulasyon/VERGI_SUBVANSIYON.md)
