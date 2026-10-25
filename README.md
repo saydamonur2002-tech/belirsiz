@@ -6,90 +6,137 @@
 
 **Ana misyon:** Konut inşaatında **girdi maliyetlerini (işçilik hariç) belirli bir eşikte tutmak**; böylece **düşük maliyetle yüksek dayanıklı yapı** üretimini mümkün kılmak. Bu misyon, iç ranttan bağımsız, ölçekli ve çok üreticili **yerli endüstriyel tedarik** yapısıyla desteklenir.
 
-**Amaç:** Küçük ve orta ölçekli konut inşaatlarında yapım kalitesini belirli kriterler altında standartlaştırmak; maliyet ve kâr marjlarını şeffaf ve öngörülebilir kılmak; standartlara uyanı teşvik eden, uymayanı yaptırımla düzelten bir regülatör platform kurmak.
+**Amaç:** Küçük ve orta ölçekli konut inşaatlarında yapım kalitesini **AB ve uluslararası standartlarla aynı** kurallar altında standartlaştırmak; maliyet ve kâr marjlarını şeffaf ve öngörülebilir kılmak; standartlara uyanı teşvik eden, uymayanı uyarı–bildirim–yaptırım zinciriyle düzelten bir regülatör platform kurmak.
 
-**Vizyon:** Her konutun güvenli, dayanıklı ve adil fiyatla üretildiği; yerli girdilere dayanan, vatandaşın, yüklenicinin ve devletin aynı ölçütlerle konuştuğu kurumsal bir standart ekosistemi.
+**Vizyon:** Her konutun güvenli, dayanıklı ve adil fiyatla üretildiği; yerli girdilere dayanan, uluslararası standartlarla eşdeğer, vatandaşın, yüklenicinin ve devletin aynı ölçütlerle konuştuğu kurumsal bir standart ekosistemi.
 
-**Temel ilkeler:** Kamu güvenliği, maliyet disiplini, şeffaflık, ölçülülük, eşit muamele, hesap verebilirlik, veriye dayalı karar.
+**Temel ilkeler:** Kamu güvenliği, uluslararası uyum, maliyet disiplini, şeffaflık, ölçülülük, eşit muamele, hesap verebilirlik, veriye dayalı karar.
 
 ## 2. Hukuki Statü ve Bağlılık
 
-- Kurum, **Ulaştırma ve Altyapı Bakanlığına bağlı / ilişkili** bir kamu tüzel kişiliği olarak tasarlanır.
+- **Yetkinin kaynağı:** Platformun yetkisi başka kurumlardan **devredilmez**; doğrudan kendi **kuruluş kanunundan** doğar. Görev ve yetkiler bu kanunda sayılır.
+- **Bakanlıkla ilişki — asıl–vekil modeli:**
+  - **Asıl (principal):** Ulaştırma ve Altyapı Bakanlığı; politika hedeflerini belirler, nihai idari yaptırım kararlarını verir, platformun performansını denetler.
+  - **Vekil (agent):** Platform; kanundan aldığı yetkiyle standartları uygular, tespit yapar, uyarır ve bakanlığa bildirimde bulunur.
+  - İlişki, kanun ve bakanlıkla imzalanacak bir **görev/performans protokolü** ile tanımlanır (hedefler, raporlama, süreler, bilgi akışı).
+  - Bakanlık, platformun teknik tespitlerine bireysel dosya bazında talimat veremez; vesayet denetimi kural ve performans düzeyinde kalır (öneri).
 - Statü seçenekleri (karara bağlanacak):
-  1. Bakanlığa bağlı genel müdürlük düzeyinde birim,
-  2. Bakanlıkla ilişkili, idari ve mali özerkliğe sahip düzenleyici kurum,
+  1. Bakanlıkla ilişkili, idari ve mali özerkliğe sahip düzenleyici kurum,
+  2. Bakanlığa bağlı özel bütçeli kurum,
   3. Kamu-özel ortak yönetişimli platform (kamu denetimi altında).
-- Kuruluş ve yetkilerin bir **kanunla** düzenlenmesi gerekir; yaptırım ve fiyat belirleme yetkileri ancak yasal dayanakla kullanılabilir.
-- Not: Konut/yapı denetimi alanında mevcut yetkili kurumlarla görev paylaşımı ayrıca netleştirilmelidir (bkz. Bölüm 12).
+- Mevcut yetkili kurumlarla görev paylaşımı ayrıca netleştirilmelidir (bkz. Bölüm 12).
 
 ## 3. Regülatör Yetkileri
 
-| Yetki alanı | Açıklama |
-|---|---|
-| Düzenleme | Teknik standart, kriter ve uygulama yönetmeliklerini çıkarma |
-| Yetkilendirme | Yüklenici, müteahhit, tedarikçi ve denetçileri sicile kaydetme, sınıflandırma, lisanslama |
-| İzleme | Proje, şantiye, tedarik ve teslim aşamalarında veri toplama ve raporlama |
-| Denetim | Planlı, risk bazlı ve şikâyet üzerine denetim |
-| Fiyat/marj düzenleme | Girdi maliyeti eşiği, referans maliyet ve kâr marjı bantlarını belirleme (Bölüm 9) |
-| Teşvik | Yerli girdi şartlı seçici teşvik kriterlerini belirleme ve uygulama (Bölüm 7) |
-| Endüstriyel koordinasyon | Standart yapı bileşenleri ve yerli tedarik ağını geliştirme (Bölüm 10) |
-| Yaptırım | Kademeli idari yaptırım uygulama (Bölüm 8) |
-| Uyuşmazlık | Taraflar arası ilk aşama uzlaştırma / hakemlik |
+| Yetki alanı | Açıklama | Kullanan |
+|---|---|---|
+| Düzenleme | AB/uluslararası standartları ulusal uygulama kurallarına dönüştürme, ek kalite sınıfları belirleme | Platform |
+| Yetkilendirme | Yüklenici, tedarikçi ve denetçi sicili, sınıflandırma | Platform |
+| İzleme | Proje, şantiye, tedarik ve teslim verisi toplama, raporlama | Platform |
+| Denetim ve tespit | Planlı, risk bazlı ve şikâyet üzerine denetim; uyumsuzluk tespiti | Platform |
+| Uyarı | Düzeltme talebi ve süre verme | Platform |
+| Bildirim | Uyumsuzlukların yaptırım önerisiyle bakanlığa bildirilmesi | Platform → Bakanlık |
+| İdari yaptırım | Para cezası, iş durdurma, lisans iptali vb. | Bakanlık (bkz. Bölüm 8, açık soru) |
+| Fiyat/marj düzenleme | Girdi maliyeti eşiği, referans maliyet ve kâr marjı bantları (Bölüm 9) | Platform (bakanlık onayı tartışmalı) |
+| Teşvik | Yerli girdi şartlı seçici teşvik (Bölüm 7) | Platform |
+| Endüstriyel koordinasyon | Standart bileşenler ve yerli tedarik ağı (Bölüm 10) | Platform |
+| Uyuşmazlık | İlk aşama uzlaştırma / hakemlik | Platform |
 
 ## 4. Denetim ve Yargı/Adalet İlişkisi
 
 - **İç denetim:** Kurum içi teftiş ve etik birimi; denetçi rotasyonu ve çıkar çatışması beyanı.
-- **Dış denetim:** Kamu mali denetimine tabi olma, yıllık faaliyet raporunun kamuya açıklanması.
-- **Yargısal denetim:** Kurumun tüm kararları idari yargı denetimine açıktır; karar gerekçeli ve itiraz yolu gösterilmiş şekilde tebliğ edilir.
+- **Dış denetim:** Kamu mali denetimine tabi olma, yıllık faaliyet raporunun kamuya açıklanması; asıl–vekil protokolü kapsamında bakanlığa performans raporu.
+- **Yargısal denetim:** Platformun ve bakanlığın tüm kararları idari yargı denetimine açıktır; karar gerekçeli ve itiraz yolu gösterilmiş şekilde tebliğ edilir.
 - **Adalet ile bağ:**
   - Suç şüphesi doğuran tespitlerin (ör. can güvenliğini tehlikeye atan ihmal, sahtecilik) yetkili adli mercilere bildirilmesi,
   - Mahkemelere ve bilirkişilik süreçlerine teknik veri ve rapor desteği,
   - Tüketici uyuşmazlıklarında standart uyum raporlarının delil niteliğinde kullanılabilmesi,
-  - Kurum bünyesinde **uzlaştırma/arabuluculuk** mekanizması ile yargı yükünün azaltılması.
+  - Kurum bünyesinde **uzlaştırma/arabuluculuk** mekanizması.
 
 ## 5. Kapsam: KOBİ Ölçekli Konut İnşaatı
 
 - **Kapsamda:** Küçük ve orta ölçekli müteahhitlerce yapılan müstakil ev, az katlı apartman ve küçük konut siteleri; bu yapılara girdi sağlayan tedarikçiler.
 - **Kapsam dışı (ilk faz):** Büyük ölçekli toplu konut projeleri, ticari/sanayi yapıları, altyapı projeleri.
-- Ölçek eşikleri (bina sayısı, inşaat alanı, yüklenici cirosu vb.) pilot çalışma sonrası belirlenecektir.
+- Ölçek eşikleri pilot çalışma sonrası belirlenecektir.
 - Yaşam döngüsü: proje → ruhsat sonrası uygulama → tedarik → şantiye → teslim → garanti dönemi.
 
 ## 6. Standartlar ve Kriterler
 
-Her başlık için ölçülebilir göstergeler, asgari eşikler ve kalite sınıfları (ör. A/B/C) tanımlanır.
+### 6.1 Temel ilke: AB ve uluslararası standartlarla birebir uyum
 
-1. **Deprem dayanımı ve taşıyıcı sistem:** Zemin etüdü, statik proje uyumu, beton/donatı testleri, uygulama kontrolleri.
-2. **Malzeme kalitesi:** Belgeli ve izlenebilir malzeme kullanımı, numune ve laboratuvar testleri, tedarik zinciri kaydı.
-3. **Enerji verimliliği:** Yalıtım, pencere/doğrama performansı, ısıtma-soğutma sistemleri, yenilenebilir enerji entegrasyonu.
-4. **Yangın güvenliği:** Kaçış yolları, malzeme yanmazlık sınıfı, algılama sistemleri.
-5. **Su yalıtımı ve tesisat:** Sıhhi tesisat, drenaj, nem ve sızıntı kontrolü.
-6. **Erişilebilirlik:** Engelli ve yaşlı kullanımına uygunluk.
-7. **İşçi sağlığı ve şantiye güvenliği.**
-8. **Çevre ve atık yönetimi:** İnşaat atıkları, toz/gürültü kontrolü.
-9. **İşçilik ve teslim kalitesi:** Kontrol listeleri, teslim tutanağı, kusur giderme süreleri.
-10. **Şeffaflık ve dokümantasyon:** Dijital yapı dosyası (proje, test, fotoğraf, fatura ve tedarik kayıtları).
-11. **Dayanıklılık/maliyet etkinliği:** Birim maliyet başına beklenen yapı ömrü ve bakım ihtiyacı göstergeleri.
+Platformun kuralları ayrı bir "ulusal standart" icat etmez; **AB ve uluslararası standartları temel (taban) olarak aynen benimser**:
+
+- **Yapısal tasarım:** Eurocode serisi (EN 1990–EN 1999) — özellikle deprem tasarımı için Eurocode 8, betonarme için Eurocode 2, çelik için Eurocode 3, geoteknik için Eurocode 7; ulusal ekler ile.
+- **Yapı malzemeleri:** AB Yapı Malzemeleri Yönetmeliği (Construction Products Regulation) çerçevesinde uyumlaştırılmış EN standartları, performans beyanı ve **CE işareti**.
+- **Enerji performansı:** AB Binaların Enerji Performansı Direktifi yaklaşımı ve ilgili EN/ISO hesaplama standartları.
+- **Yangın:** EN yangına tepki ve yangın dayanımı sınıflandırma standartları.
+- **Kalite ve süreç yönetimi:** ISO 9001 (kalite), ISO 14001 (çevre), ISO 45001 (iş sağlığı ve güvenliği), ISO 19650 (BIM / bilgi yönetimi).
+- **Uygunluk değerlendirmesi:** Akredite laboratuvar ve onaylanmış kuruluşlar (ISO/IEC 17025, ISO/IEC 17065 çerçevesi).
+
+AB standartları güncellendiğinde platform kuralları da belirlenen geçiş süresi içinde güncellenir.
+
+### 6.2 Kalite sınıfları (tabanın üstünde)
+
+AB/uluslararası uyum **asgari şarttır**. A/B/C sınıfları bu tabanın üzerinde ek performans gösterir (C = tam uyum, B ve A = artan dayanıklılık, enerji ve kalite performansı).
+
+### 6.3 Değerlendirme başlıkları
+
+1. **Deprem dayanımı ve taşıyıcı sistem:** Zemin etüdü, Eurocode uyumlu statik proje, beton/donatı testleri, uygulama kontrolleri.
+2. **Malzeme kalitesi:** CE işaretli / performans beyanlı, izlenebilir malzeme; numune ve laboratuvar testleri.
+3. **Enerji verimliliği:** Yalıtım, doğrama, ısıtma-soğutma, yenilenebilir enerji entegrasyonu.
+4. **Yangın güvenliği:** Kaçış yolları, malzeme sınıfları, algılama sistemleri.
+5. **Su yalıtımı ve tesisat.**
+6. **Erişilebilirlik:** Uluslararası erişilebilirlik standartlarıyla uyum.
+7. **İş sağlığı ve şantiye güvenliği.**
+8. **Çevre ve atık yönetimi.**
+9. **İşçilik ve teslim kalitesi.**
+10. **Şeffaflık ve dokümantasyon:** Dijital yapı dosyası (BIM, test, fatura ve tedarik kayıtları).
+11. **Dayanıklılık/maliyet etkinliği:** Birim maliyet başına beklenen yapı ömrü ve bakım ihtiyacı.
 
 ## 7. Seçici Teşvik Mekanizması
 
-Teşvikler herkese değil, **performansı kanıtlanmış** yüklenicilere ve projelere verilir ve **yerli girdilerle çalışır**.
+Teşvikler **performansı kanıtlanmış** yüklenicilere ve projelere verilir ve **yerli girdilerle çalışır**.
 
-- **Yerli girdi şartı:** Teşvikten yararlanmak için projede kullanılan malzeme ve bileşenlerin belirlenecek bir oranının yerli üretim olması ve platform tarafından onaylı tedarikçilerden alınması.
-- **Uygunluk:** Standart uyum puanı belirli eşiğin üzerinde olan, sicili temiz, girdi maliyeti eşiğine uyan yükleniciler.
-- **Araçlar (örnek):** Harç/vergi kolaylıkları, kamu destekli kredi faiz desteği, hızlı izin süreci, kamu projelerinde öncelik, "Onaylı Yapı" kalite etiketi; yerli üreticiler için kapasite artırımı ve standart bileşen üretimine yönelik destekler.
-- **Puanlama:** Kalite skoru, yerli girdi oranı, girdi maliyeti eşiğine uyum, şikâyet geçmişi, zamanında teslim, maliyet şeffaflığı, enerji sınıfı.
-- **Geri alma:** Sonradan uyumsuzluk (ör. yerli girdi beyanının gerçeğe aykırı olması) tespit edilirse teşvik iptal edilir ve geri talep edilebilir.
+- **Yerli girdi şartı:** Kullanılan malzeme ve bileşenlerin belirlenecek bir oranının yerli üretim olması ve onaylı tedarikçilerden alınması. Yerli girdiler de **AB/uluslararası standartlara ve CE işaretine uygun** olmak zorundadır (bkz. Bölüm 12'deki gerilim).
+- **Uygunluk:** Standart uyum puanı eşiğin üzerinde, sicili temiz, girdi maliyeti eşiğine uyan yükleniciler.
+- **Araçlar (örnek):** Harç/vergi kolaylıkları, kredi faiz desteği, hızlı izin süreci, "Onaylı Yapı" etiketi; yerli üreticiler için kapasite ve standart bileşen üretim destekleri.
+- **Puanlama:** Kalite skoru, yerli girdi oranı, eşik uyumu, şikâyet geçmişi, zamanında teslim, maliyet şeffaflığı, enerji sınıfı.
+- **Geri alma:** Sonradan uyumsuzluk tespit edilirse teşvik iptal edilir ve geri talep edilebilir.
 
-## 8. Yaptırım Kademeleri
+## 8. Yaptırım Süreci (Uyarı → Bildirim → Yaptırım)
 
-| Kademe | Yaptırım | Tetikleyici (örnek) |
-|---|---|---|
-| 1 | Uyarı ve düzeltme süresi | Küçük, can güvenliğini etkilemeyen eksiklik |
-| 2 | İdari para cezası | Süresinde giderilmeyen veya tekrarlayan uyumsuzluk; gerekçesiz eşik aşımı |
-| 3 | Teşviklerin askıya alınması/iptali | Teşvik koşullarının veya yerli girdi şartının ihlali |
-| 4 | İş durdurma | Can ve mal güvenliğine yönelik ciddi risk |
-| 5 | Sicil puanı düşürme, faaliyet kısıtlaması | Ağır veya sistematik ihlal |
-| 6 | Lisans/yetki iptali ve adli bildirim | Kasıt, sahtecilik, ağır ihmal |
+### 8.1 Süreç
+
+1. **Tespit:** Platform denetim, veri analizi veya şikâyet yoluyla uyumsuzluğu tespit eder ve tutanağa bağlar.
+2. **Savunma ve uyarı:** İlgiliye savunma hakkı tanınır; platform yazılı uyarı yapar ve düzeltme süresi verir.
+3. **Bildirim:** Süresinde giderilmeyen veya ağır nitelikteki uyumsuzluklar, gerekçeli **yaptırım önerisiyle** bakanlığa (asıl) bildirilir.
+4. **Karar:** Bakanlık, bildirim üzerine belirlenen süre içinde yaptırım kararını verir (öneri: sürede karar verilmezse gerekçe açıklama zorunluluğu).
+5. **Uygulama ve izleme:** Karar platform üzerinden ilgiliye tebliğ edilir; platform uygulamayı izler ve sicile işler.
+6. **İtiraz:** İdari itiraz ve yargı yolu açıktır.
+
+```mermaid
+flowchart LR
+    T[Tespit - Platform] --> S[Savunma + Uyarı - Platform]
+    S -->|giderildi| K[Dosya kapanır]
+    S -->|giderilmedi / ağır ihlal| B[Bildirim + yaptırım önerisi - Platform]
+    B --> KR[Yaptırım kararı - Bakanlık]
+    KR --> U[Tebliğ ve izleme - Platform]
+    U --> I[İtiraz / idari yargı]
+```
+
+### 8.2 Yaptırım dağılımı (önerilen — **açık soru**)
+
+| Kademe | Yaptırım | Tetikleyici (örnek) | Uygulayan (öneri) |
+|---|---|---|---|
+| 1 | Uyarı ve düzeltme süresi | Küçük, can güvenliğini etkilemeyen eksiklik | Platform (doğrudan) |
+| 2 | Teşviklerin askıya alınması / iptali | Teşvik koşullarının veya yerli girdi şartının ihlali | Platform (doğrudan — kendi teşvik aracı olduğu için) |
+| 3 | Sicil puanı düşürme, "Onaylı Yapı" etiketinin geri alınması | Tekrarlayan uyumsuzluk | Platform (doğrudan) |
+| 4 | İdari para cezası | Süresinde giderilmeyen uyumsuzluk; gerekçesiz eşik aşımı | Bakanlık (platform bildirimi üzerine) |
+| 5 | İş durdurma | Can ve mal güvenliğine yönelik ciddi risk | Bakanlık (acil hallerde platformun geçici tedbir yetkisi — açık soru) |
+| 6 | Faaliyet kısıtlaması, lisans/yetki iptali | Ağır veya sistematik ihlal | Bakanlık (platform bildirimi üzerine) |
+| 7 | Adli bildirim | Kast, sahtecilik, ağır ihmal | Platform ve/veya bakanlık |
+
+> **Açık soru:** Hangi yaptırımın platformca doğrudan, hangisinin bakanlıkça uygulanacağı kuruluş kanununda netleştirilmelidir. Özellikle acil iş durdurma ve para cezası yetkisinin kimde olacağı karara bağlanmalıdır.
 
 Tüm yaptırımlar ölçülülük ilkesine göre, savunma hakkı tanınarak ve gerekçeli kararla uygulanır.
 
@@ -97,73 +144,82 @@ Tüm yaptırımlar ölçülülük ilkesine göre, savunma hakkı tanınarak ve g
 
 ### 9.1 Girdi maliyeti eşiği (işçilik hariç)
 
-- Platformun ana aracıdır. **İşçilik dışındaki girdiler** (malzeme, yapı bileşenleri, ekipman, nakliye, tedarik ve ara hizmet maliyetleri) için yapı sınıfı ve bölge bazında **m² başına azami girdi maliyeti eşiği** belirlenir.
-- İşçilik eşiğe dahil edilmez; işçilik ücretleri ayrı izlenir ve eşik üzerinden baskılanmaz.
-- Eşik, **asgari dayanıklılık ve kalite standartlarını karşılayan** referans girdi sepetine göre hesaplanır; eşik, kaliteden ödün verilerek tutturulamaz.
-- Eşiğe uyum; onaylı yerli tedarikçilerden standart bileşen alımı, toplu/ölçekli tedarik ve tedarik zincirindeki aracı rantının azaltılması ile sağlanır (Bölüm 10).
-- Eşik aşımı yalnızca gerekçeli istisna başvurusuyla (zemin, erişim, özel tasarım vb.) mümkündür.
+- Platformun ana aracıdır. **İşçilik dışındaki girdiler** (malzeme, yapı bileşenleri, ekipman, nakliye, tedarik ve ara hizmetler) için yapı sınıfı ve bölge bazında **m² başına azami girdi maliyeti eşiği** belirlenir.
+- İşçilik eşiğe dahil edilmez; ayrı izlenir ve eşik üzerinden baskılanmaz.
+- Eşik, **AB/uluslararası standartları karşılayan** referans girdi sepetine göre hesaplanır; kaliteden ödün verilerek tutturulamaz.
+- Eşiğe uyum; onaylı yerli tedarikçilerden standart bileşen alımı, toplu tedarik ve aracı rantının azaltılmasıyla sağlanır (Bölüm 10).
+- Eşik aşımı yalnızca gerekçeli istisna başvurusuyla mümkündür.
 
 ### 9.2 Referans maliyet ve marj
 
-1. **Referans birim maliyet:** Bölge, yapı sınıfı ve kalite sınıfına göre m² bazında malzeme, işçilik, ekipman, genel gider ve finansman kalemlerinden oluşan maliyet modeli.
-2. **Veri kaynakları:** Kayıtlı projelerin gerçekleşen maliyet verileri, onaylı tedarikçi fiyatları, malzeme fiyat endeksleri, işçilik ücretleri, piyasa araştırmaları.
+1. **Referans birim maliyet:** Bölge, yapı ve kalite sınıfına göre m² bazında maliyet modeli.
+2. **Veri kaynakları:** Kayıtlı projelerin gerçekleşen maliyetleri, onaylı tedarikçi fiyatları, fiyat endeksleri, işçilik ücretleri.
 3. **Güncelleme:** Periyodik (ör. üç aylık) ve olağanüstü fiyat hareketlerinde ara güncelleme.
-4. **Kâr marjı bandı:** Asgari ve azami marj içeren bir **bant** yaklaşımı; sabit fiyat yerine aralık belirlenmesi önerilir.
-5. **Kalite primi:** Daha yüksek kalite sınıfı ve enerji performansı için ilave marj izni.
-6. **Şeffaflık:** Satış/sözleşme belgelerinde maliyet sınıfı, girdi eşiğine uyum durumu ve kalite etiketinin gösterilmesi.
-7. **İtiraz:** Yüklenicilerin özel koşulları için gerekçeli sapma başvurusu.
+4. **Kâr marjı bandı:** Sabit fiyat yerine asgari–azami marj aralığı.
+5. **Kalite primi:** Daha yüksek kalite sınıfı için ilave marj izni.
+6. **Şeffaflık:** Sözleşme belgelerinde maliyet sınıfı, eşik uyumu ve kalite etiketinin gösterilmesi.
+7. **İtiraz:** Özel koşullar için gerekçeli sapma başvurusu.
 
 ## 10. Endüstriyel Tedarik ve Yerli Üretim
 
-Girdi maliyeti eşiğinin sürdürülebilir olması için platformun bir **endüstriyel ayağı** bulunur.
-
-- **Rantı azaltma:** Malzeme ve tedarikte aracı katmanlarının ve spekülatif fiyatlamanın azaltılması; üreticiden şantiyeye kısa ve izlenebilir tedarik zinciri; fiyat oluşumunun iç ranttan bağımsız hale getirilmesi.
-- **Çoklu üretici:** Tek tedarikçi bağımlılığı ve tekelleşmeyi önlemek için her kritik girdi kaleminde birden fazla onaylı yerli üretici; bölgesel dağılım ile nakliye maliyetinin düşürülmesi.
-- **Ölçek ekonomisi:** Küçük ve orta ölçekli yüklenicilerin taleplerinin platform üzerinden birleştirilmesi (toplu/çerçeve alım), üreticilere öngörülebilir talep sağlanması.
-- **Standart yapı bileşenleri / prefabrikasyon:** Taşıyıcı elemanlar, duvar panelleri, doğrama, tesisat modülleri gibi bileşenlerin standart ölçü ve kataloglarla tanımlanması; seri ve çoklu üretime uygun, deprem ve dayanıklılık testinden geçmiş prefabrik çözümler.
-- **Tedarik zinciri şeffaflığı:** Onaylı tedarikçi sicili, ürün menşe ve test belgelerinin dijital kaydı, parti bazlı izlenebilirlik, fiyatların platformda görünür olması.
-- **Kalite güvencesi:** Üreticilerde periyodik üretim denetimi ve numune testleri; standart dışı ürünün sicilden çıkarılması.
+- **Rantı azaltma:** Aracı katmanların ve spekülatif fiyatlamanın azaltılması; üreticiden şantiyeye kısa ve izlenebilir tedarik zinciri.
+- **Çoklu üretici:** Her kritik girdi kaleminde birden fazla onaylı yerli üretici; bölgesel dağılım.
+- **Ölçek ekonomisi:** KOBİ yüklenicilerin taleplerinin platform üzerinden birleştirilmesi (toplu/çerçeve alım).
+- **Standart yapı bileşenleri / prefabrikasyon:** Standart ölçü ve kataloglarla tanımlanmış, **Eurocode ve CE gerekliliklerini karşılayan**, seri üretime uygun bileşenler.
+- **Tedarik zinciri şeffaflığı:** Onaylı tedarikçi sicili, menşe, performans beyanı ve test belgelerinin dijital kaydı, parti bazlı izlenebilirlik.
+- **Kalite güvencesi:** Üreticilerde periyodik üretim denetimi (fabrika üretim kontrolü) ve numune testleri.
 
 ## 11. Organizasyon Şeması
 
 ```mermaid
 flowchart TD
-    B[Ulaştırma ve Altyapı Bakanlığı] --> K[Kurul / Yönetim Kurulu]
+    KK[Kuruluş Kanunu] ==>|yetki kaynağı| K
+    B[Ulaştırma ve Altyapı Bakanlığı - ASIL] -. görev/performans protokolü .-> K[Kurul / Yönetim Kurulu - VEKİL]
     K --> BA[Başkanlık]
     K --> ID[İç Denetim ve Etik Birimi]
-    BA --> S[Standartlar ve Kriterler Daire Başkanlığı]
-    BA --> D[Denetim ve Saha Operasyonları]
+    BA --> S[Standartlar ve AB Uyum Dairesi]
+    BA --> D[Denetim ve Tespit - Saha Operasyonları]
+    BA --> BY[Uyarı ve Bildirim Birimi]
     BA --> M[Maliyet, Girdi Eşiği ve Piyasa Analizi]
     BA --> E[Endüstriyel Tedarik ve Yerli Üretim]
     BA --> T[Teşvik Yönetimi]
-    BA --> Y[Yaptırım ve Hukuk İşleri]
+    BA --> H[Hukuk İşleri]
     BA --> U[Uyuşmazlık ve Uzlaştırma Merkezi]
     BA --> V[Dijital Platform ve Veri Yönetimi]
     BA --> R[Bölge Müdürlükleri]
     E --> TS[Onaylı Yerli Tedarikçi Sicili]
-    Y -. adli bildirim .-> A[Yargı Mercileri]
+    D --> BY
+    BY -->|bildirim + yaptırım önerisi| B
+    B -->|yaptırım kararı| BY
+    H -. adli bildirim .-> A[Yargı Mercileri]
+    B -. yargısal denetim .-> A
     K -. yargısal denetim .-> A
 ```
 
 ## 12. Açık Sorular ve Riskler
 
-- **Rekabet hukuku:** Kâr marjı/fiyat ve girdi eşiği belirleme, serbest piyasa ve rekabet kurallarıyla çatışabilir; bant yaklaşımı ve rekabet otoritesiyle koordinasyon gerekir.
-- **Uluslararası ticaret kuralları:** Yerli girdi şartına bağlı teşvikler, Türkiye'nin taraf olduğu uluslararası ticaret anlaşmaları ve gümrük birliği yükümlülükleriyle çelişebilir; teşvik tasarımının bu açıdan hukuki incelemesi gerekir.
-- **Yerli tedarik kapasitesi:** Bazı girdi kalemlerinde yerli üretim kapasitesi, kalite veya çeşitlilik yetersiz olabilir; bu durumda eşik tutturulamayabilir veya fiyatlar yükselebilir. Kademeli yerli oran, geçiş istisnaları ve kapasite yatırımları planlanmalı.
-- **Eşik ve kalite dengesi:** Maliyet eşiği baskısının kaliteden ödün verilmesine yol açmaması için sıkı test ve denetim şart.
-- **Mevcut kurumlarla örtüşme:** Yapı denetimi, imar, standardizasyon, sanayi ve tüketici koruma alanında yetkili kurumlarla görev çakışması; hangi bakanlığın asıl yetkili olacağı netleştirilmeli.
-- **Yasal dayanak:** Yaptırım, fiyat ve eşik düzenleme yetkisi için kanuni düzenleme şart.
-- **Bürokratik yük:** KOBİ'ler için uyum maliyeti; sade süreçler ve dijital başvuru önerilir.
-- **Kayıt dışılık:** Sıkı kurallar kayıt dışı inşaatı artırabilir.
-- **Kurumsal bağımsızlık ve yolsuzluk riski:** Özellikle tedarikçi onayı ve teşvik dağıtımında; denetçi rotasyonu, şeffaf karar yayımı, dış denetim.
-- **Veri kalitesi:** Maliyet modelinin güvenilirliği veri toplama altyapısına bağlı.
-- **Finansman:** Kurumun bütçesi (genel bütçe, harç, katkı payı) belirlenmeli.
-- **Geçiş süreci:** Pilot bölge ile başlama ve kademeli yaygınlaştırma.
+- **Yerli girdi şartı ile AB standartları / gümrük birliği / ayrımcılık yasağı gerilimi:** Teşviki yerli girdiye bağlamak; gümrük birliği kapsamında malların serbest dolaşımı, ithal ürünlere ayrımcılık yasağı ve uluslararası ticaret kuralları (ör. yerel içerik şartlarına ilişkin kısıtlar) ile çatışabilir. Ayrıca CE işaretli bir ithal ürünü yalnızca menşei nedeniyle dezavantajlı kılmak, standartların "aynı" olması ilkesiyle gerilim yaratır.
+  - *Çözüm önerileri:* Teşviki menşe yerine ölçülebilir hedeflere bağlamak (ör. nakliye mesafesi/karbon ayak izi, tedarik sürekliliği, KOBİ üretici katılımı); yerli üreticiye üretim tarafında kapasite desteği vermek; yasal incelemeyle uyumlu bir "yerli katkı" tanımı yapmak; geçiş süreleri ve istisnalar.
+- **"Yetkiyi başka kurumdan almama" ile bakanlığa bağlılık arasındaki çelişki:** Platform yetkisini doğrudan kanundan alıyorsa, bakanlığın "asıl" olması ve yaptırımın bakanlıkça verilmesi, platformun özerkliğini zayıflatabilir veya yetkinin fiilen bakanlıkta olduğu izlenimi doğurabilir; tersine, platformun yaptırım kararı vermesi bakanlığın siyasi sorumluluğunu belirsizleştirir.
+  - *Çözüm önerisi:* Kuruluş kanununda yetkilerin ikiye ayrılması — (a) **teknik/düzenleyici yetkiler** (standart, tespit, uyarı, sicil, teşvik) doğrudan ve özerk olarak platformda; (b) **ağır idari yaptırımlar** bakanlıkta, ancak platformun gerekçeli bildirimine dayalı, süreli ve gerekçe zorunlu karar usulüyle. Bakanlık–platform ilişkisi bireysel dosyaya talimat değil, protokol ve performans denetimi üzerinden kurulur.
+- **Yaptırım dağılımı (Bölüm 8.2):** Hangi yaptırımın platformda, hangisinin bakanlıkta olacağı kesinleşmedi; acil iş durdurma yetkisi kritik.
+- **Bildirim zincirinde gecikme:** Bakanlık kararının gecikmesi caydırıcılığı azaltabilir; karar süresi ve geçici tedbir mekanizması gerekli.
+- **Rekabet hukuku:** Kâr marjı ve girdi eşiği belirleme, rekabet kurallarıyla çatışabilir; bant yaklaşımı ve rekabet otoritesiyle koordinasyon.
+- **Yerli tedarik kapasitesi:** Bazı kalemlerde yerli üretim kapasitesi, kalite veya AB uyumu yetersiz olabilir; kademeli oran ve geçiş istisnaları.
+- **AB standartlarının maliyete etkisi:** Tam uyum, girdi maliyeti eşiğini zorlayabilir; eşik hesabı uyumlu referans sepete dayanmalı.
+- **Mevcut kurumlarla örtüşme:** Yapı denetimi, imar, standardizasyon, akreditasyon, sanayi ve tüketici koruma kurumlarıyla görev çakışması.
+- **Yasal dayanak:** Kuruluş kanunu olmadan yetki, yaptırım ve eşik düzenlemesi mümkün değil.
+- **Bürokratik yük ve kayıt dışılık:** KOBİ'ler için sade, dijital süreçler.
+- **Kurumsal bağımsızlık ve yolsuzluk riski:** Tedarikçi onayı ve teşvik dağıtımında şeffaflık, rotasyon, dış denetim.
+- **Veri kalitesi ve finansman.**
+- **Geçiş süreci:** Pilot bölge ve kademeli yaygınlaştırma.
 
 ## 13. Sonraki Adımlar
 
 1. Paydaş görüşmeleri (bakanlıklar, meslek odaları, müteahhit birlikleri, yapı malzemesi üreticileri, tüketici örgütleri)
-2. Mevzuat, ticaret anlaşmaları ve kurum haritası analizi
-3. Yerli tedarik kapasitesi envanteri ve standart bileşen kataloğu taslağı
-4. Pilot kriter seti, girdi maliyeti eşiği ve maliyet modeli taslağı
-5. Pilot bölge uygulaması ve değerlendirme
+2. Kuruluş kanunu taslağı: yetki kaynağı, asıl–vekil protokolü, yaptırım dağılımı
+3. AB standartları uyum haritası (Eurocode, CE, EN/ISO) ve boşluk analizi
+4. Yerli girdi şartının ticaret hukuku açısından incelenmesi
+5. Yerli tedarik kapasitesi envanteri ve standart bileşen kataloğu taslağı
+6. Pilot kriter seti, girdi maliyeti eşiği ve maliyet modeli
+7. Pilot bölge uygulaması ve değerlendirme
