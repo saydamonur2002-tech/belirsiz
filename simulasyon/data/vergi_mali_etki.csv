@@ -1,0 +1,13 @@
+senaryo,kapsam,geri_donus,ucret_GV_model_mevcut_mrd,GV_kaybi_mrd,KDV_OTV_geri_donus_mrd,kayitlilik_prim_mrd,net_mali_etki_mrd,kayip_GV_butcesi_orani
+A1 istisna=bekar yasam maliyeti (48.885 TL),ekonomi geneli,dusuk,1690.4,484.7,40.9,12.3,-431.4,0.1362
+A1 istisna=bekar yasam maliyeti (48.885 TL),ekonomi geneli,orta,1690.4,484.7,54.6,24.7,-405.4,0.1362
+A1 istisna=bekar yasam maliyeti (48.885 TL),ekonomi geneli,yuksek,1690.4,484.7,61.4,49.4,-373.9,0.1362
+A1 istisna=bekar yasam maliyeti (48.885 TL),insaat,dusuk,117.6,33.2,2.8,1.5,-28.9,0.0093
+A1 istisna=bekar yasam maliyeti (48.885 TL),insaat,orta,117.6,33.2,3.7,3.1,-26.4,0.0093
+A1 istisna=bekar yasam maliyeti (48.885 TL),insaat,yuksek,117.6,33.2,4.2,6.2,-22.8,0.0093
+A2 istisna=yoksulluk siniri (123.130 TL),ekonomi geneli,dusuk,1690.4,1238.7,104.6,12.3,-1121.8,0.3481
+A2 istisna=yoksulluk siniri (123.130 TL),ekonomi geneli,orta,1690.4,1238.7,139.5,24.7,-1074.6,0.3481
+A2 istisna=yoksulluk siniri (123.130 TL),ekonomi geneli,yuksek,1690.4,1238.7,156.9,49.4,-1032.5,0.3481
+A2 istisna=yoksulluk siniri (123.130 TL),insaat,dusuk,117.6,86.0,7.3,1.5,-77.2,0.0242
+A2 istisna=yoksulluk siniri (123.130 TL),insaat,orta,117.6,86.0,9.7,3.1,-73.2,0.0242
+A2 istisna=yoksulluk siniri (123.130 TL),insaat,yuksek,117.6,86.0,10.9,6.2,-68.9,0.0242

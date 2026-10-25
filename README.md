@@ -297,3 +297,6 @@ flowchart TD
 5. Yerli tedarik kapasitesi envanteri ve standart bileşen kataloğu taslağı
 6. Pilot kriter seti, girdi maliyeti eşiği ve maliyet modeli
 7. Pilot bölge uygulaması ve değerlendirme
+
+## Gelir vergisi istisnası ve sigorta dışı sübvansiyon (v12)
+İstisnayı bekâr işçinin yaşam maliyetine (48.885 TL) çekmenin yıllık maliyeti ~485 mrd TL; yoksulluk sınırına (123.130 TL) çekmenin ~1,24 trilyon TL. Geri dönüşler kaybın yalnızca %10–25'ini karşılıyor, yani devlet **daha az** topluyor. İnşaatta GV ve damgayı devletin üstlenmesi konut birim maliyetini %2,8–3,1 düşürür; tüm sektör için maliyeti ~121 mrd TL, yalnız platformdaki KOBİ'ler için ~12–24 mrd TL. Ayrıntı: [simulasyon/VERGI_SUBVANSIYON.md](simulasyon/VERGI_SUBVANSIYON.md)
