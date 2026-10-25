@@ -25,7 +25,7 @@ Fiyat düşüşü (VARSAYIMSIZ.md): alıcı USD bazında %5–9 az öder.
 **Bu rakamlar üst sınırdır, tahmin değildir:**
 - Fiyat düşüşü yalnız platformdaki KOBİ konutlarına uygulanır. Platformun pazar payı bilinmiyor. Etki kabaca kapsamla orantılıdır: **her %10 kapsam başına doğrudan 0 – ~19 bin iş**.
 - 2,224 milyonun tamamı konut değildir (altyapı ve ticari yapılar dahil). Konut payı ayrıştırılmadı.
-- İşgücü yoğunluğunun (iş/m²) sabit kaldığı kabul ediliyor. Modüler üretim bunu düşürebilir (bkz. b).
+- İşgücü yoğunluğunun (iş/m²) sabit kaldığı kabul ediliyor.
 - Yerinden etme yok sayıldı (platform dışı müteahhitlerden talep kayması). Kayma tamsa net etki sıfıra yaklaşır.
 - Esneklik literatürü çelişiyor. Ceritoğlu sıfırdan ayırt edilemiyor; daha uzun dönemli toplu çalışmalar (örn. 1964–2014 sınır testi) pozitif ilişki bile buluyor (yatırım malı etkisi). **Dolayısıyla kanıtla savunulabilir aralık 0'dan başlar.**
 
@@ -34,11 +34,10 @@ Fiyat düşüşü (VARSAYIMSIZ.md): alıcı USD bazında %5–9 az öder.
 |---|---|---|
 | KOBİ sigorta dışı işçilik desteğinin kayıt altına alma etkisi | + (kayıtlı) | İnşaata özgü kayıt dışı oran yayımlanmıyor; Türkiye'de bu desteğe ait bir esneklik tahmini bulunamadı |
 | Aracıların tasfiyesi | − | Aracı/taşeron istihdamı ayrı ölçülmüyor |
-| Modüler/uzmanlaşmış ağ | ± (şantiye işi azalır, fabrika işi artar) | Türkiye verisi yok |
 | Yerlileştirme/G1 orta ölçekli üretim (çimento vb.) | + (imalat) | Kapasite ve yatırım verisi pilot gerektirir |
 | Zarar eden kohortların 87→15 / 103→15 düşmesi | + (iflas kaynaklı iş kaybı azalır) | Kohort başına istihdam verisi yok |
 
 ## 4. Sonuç
-Veriyle kanıtlanabilen net istihdam etkisi **0 ile pozitif bir üst sınır arasındadır**. Üst sınır her %10 platform kapsamı başına doğrudan ~19 bin, zincirle birlikte ~32 bin iştir. Sıfırın altında olduğunu gösteren bir veri yok. Sıfırın üstünde olduğunu kanıtlayan, anlamlı ve güncel bir esneklik de yok. Kayıt dışılık, aracılar ve modüler ağ etkilerinin işareti bile pilot olmadan belirlenemez.
+Veriyle kanıtlanabilen net istihdam etkisi **0 ile pozitif bir üst sınır arasındadır**. Üst sınır her %10 platform kapsamı başına doğrudan ~19 bin, zincirle birlikte ~32 bin iştir. Sıfırın altında olduğunu gösteren bir veri yok. Sıfırın üstünde olduğunu kanıtlayan, anlamlı ve güncel bir esneklik de yok. Kayıt dışılık, aracı etkilerinin işareti bile pilot olmadan belirlenemez.
 
 **Pilotta ölçülmesi gerekenler:** iş/m², SGK kayıtlı çalışan/şantiye, aracı sayısı, platform ve kontrol grubu satış hacmi (fark-farklar yöntemi).

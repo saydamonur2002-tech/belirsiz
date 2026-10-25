@@ -2,7 +2,7 @@
 LF=35_247_000; U=2_740_000; ATIL=0.310
 # Yeni işin işsizlerden dolma payı: 1:1 mekanik üst sınır; ~%40 akım tabanlı kaba türetme (SBB 2022: işsiz->iş %43, işgücü dışı ~%10,3 hareket) 
 P=(1.0,0.40)
-sen={'Normal alt':0,'Normal üst (düşük)':126_691,'Normal üst (yüksek)':255_260,'Modüler düşük':93_834,'Modüler orta':234_118,'Modüler yüksek':373_821,'Modüler, talep artışı yok':-170_073}
+sen={'Normal alt':0,'Normal üst (düşük)':126_691,'Normal üst (yüksek)':255_260}
 print('senaryo,net_is,kapsam,issiz_degisim_1e1,oran_puan_1e1,issiz_degisim_40,oran_puan_40')
 for k,n in sen.items():
   for c in (1.0,0.1):
