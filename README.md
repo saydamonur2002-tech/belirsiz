@@ -325,3 +325,10 @@ flowchart TD
 
 ## 15. Varsayımsız değerlendirme (v14)
 Yalnız kaynaklı verilerle kanıtlanabilen konut birim maliyeti düşüşü: **alt sınır %0, üst sınır yaklaşık %6** (çimento ≤%1,6; hedefli vergi desteği ≤%2,7; bayi marjı ≤%2,1). Orta senaryodaki %14,8 kaynakla desteklenmiyor; taşeron, modüler ağ ve karma oynaklık katkıları hesaplanamıyor. Resmî İME ile yapılan backtest'te 6 aylık kural, sabit fiyatta zarar eden kohortları 87'den 15'e indiriyor; ortalama marj ~%12 (%30 değil). Alıcı fiyatı kohortların %73'ünde BIS konut artışının altında. Ayrıntı: [simulasyon/VARSAYIMSIZ.md](simulasyon/VARSAYIMSIZ.md)
+
+## 16. İstihdam etkisi (varsayımsız)
+Ayrıntı: [simulasyon/ISTIHDAM.md](simulasyon/ISTIHDAM.md)
+- Baz: TÜİK 2025 inşaat istihdamı 2,224 milyon. Fiyat düşüşü %5–9 (USD).
+- Konut talebi esnekliği −0,85/−0,95 (Solak & Kabadayı 2016) alınırsa talep %4–8,5 artar. Bu durumda **her %10 platform kapsamı başına doğrudan 9–19 bin iş** çıkar; Tip II çarpanla (1,678) bu 16–32 bin olur.
+- TCMB (Ceritoğlu 2017) esnekliği anlamsız buluyor, bu yüzden kanıtlanabilir alt sınır **0**.
+- Kayıt dışılıktan kayıtlıya geçiş, aracı tasfiyesi ve modüler ağ etkileri hesaplanamıyor; bunlar pilot veri gerektirir.
