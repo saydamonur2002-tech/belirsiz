@@ -6,9 +6,9 @@
 
 **Ana misyon:** Konut inşaatında **girdi maliyetlerini (işçilik hariç) belirli bir eşikte tutmak**; böylece **düşük maliyetle yüksek dayanıklı yapı** üretimini mümkün kılmak. Bu misyon, iç ranttan bağımsız, ölçekli ve çok üreticili **yerli endüstriyel tedarik** yapısıyla desteklenir.
 
-**Amaç:** Küçük ve orta ölçekli konut inşaatlarında yapım kalitesini **AB ve uluslararası standartlarla aynı** kurallar altında standartlaştırmak; maliyet ve kâr marjlarını şeffaf ve öngörülebilir kılmak; standartlara uyanı teşvik eden, uymayanı uyarı–bildirim–yaptırım zinciriyle düzelten bir regülatör platform kurmak.
+**Amaç:** Küçük ve orta ölçekli konut inşaatlarında yapım kalitesini **AB/uluslararası standartları teknik taban alan, Türkiye'ye özelleştirilmiş ulusal standart** altında standartlaştırmak; maliyet ve kâr marjlarını şeffaf ve öngörülebilir kılmak; standartlara uyanı teşvik eden, uymayanı uyarı–bildirim–yaptırım zinciriyle düzelten bir regülatör platform kurmak.
 
-**Vizyon:** Her konutun güvenli, dayanıklı ve adil fiyatla üretildiği; yerli girdilere dayanan, uluslararası standartlarla eşdeğer, vatandaşın, yüklenicinin ve devletin aynı ölçütlerle konuştuğu kurumsal bir standart ekosistemi.
+**Vizyon:** Her konutun güvenli, dayanıklı ve adil fiyatla üretildiği; yerli girdilere dayanan, teknik olarak uluslararası standartlarla uyumlu ama Türkiye'ye özgü, vatandaşın, yüklenicinin ve devletin aynı ölçütlerle konuştuğu kurumsal bir standart ekosistemi.
 
 **Temel ilkeler:** Kamu güvenliği, uluslararası uyum, maliyet disiplini, şeffaflık, ölçülülük, eşit muamele, hesap verebilirlik, veriye dayalı karar.
 
@@ -30,7 +30,7 @@
 
 | Yetki alanı | Açıklama | Kullanan |
 |---|---|---|
-| Düzenleme | AB/uluslararası standartları ulusal uygulama kurallarına dönüştürme, ek kalite sınıfları belirleme | Platform |
+| Düzenleme | AB/uluslararası teknik taban üzerine Türkiye'ye özelleştirilmiş ulusal standardı (yerli girdi şartı dahil) ve kalite sınıflarını belirleme | Platform |
 | Yetkilendirme | Yüklenici, tedarikçi ve denetçi sicili, sınıflandırma | Platform |
 | İzleme | Proje, şantiye, tedarik ve teslim verisi toplama, raporlama | Platform |
 | Denetim ve tespit | Planlı, risk bazlı ve şikâyet üzerine denetim; uyumsuzluk tespiti | Platform |
@@ -62,9 +62,14 @@
 
 ## 6. Standartlar ve Kriterler
 
-### 6.1 Temel ilke: AB ve uluslararası standartlarla birebir uyum
+### 6.1 Temel ilke: Uluslararası teknik taban + Türkiye'ye özelleştirme
 
-Platformun kuralları ayrı bir "ulusal standart" icat etmez; **AB ve uluslararası standartları temel (taban) olarak aynen benimser**:
+Platformun standardı **AB standardı değildir**; içeriği büyük ölçüde AB/uluslararası standartların kopyası olsa bile, **AB/uluslararası standartları teknik taban alan ve Türkiye'ye özelleştirilmiş bir ulusal standart**tır. Yapısı iki katmanlıdır:
+
+1. **Teknik taban (uluslararası):** Tasarım, malzeme performansı, test ve kalite yönetimi gereklilikleri aşağıdaki AB/uluslararası referanslardan alınır.
+2. **Türkiye'ye özelleştirme katmanı (ulusal):** Tabanın üstüne eklenen ulusal şartlar — başta **yerli girdi şartı** (bkz. 6.2), ayrıca girdi maliyeti eşiği uyumu, onaylı tedarikçi sicili ve A/B/C kalite sınıfları.
+
+**Teknik taban referansları:**
 
 - **Yapısal tasarım:** Eurocode serisi (EN 1990–EN 1999) — özellikle deprem tasarımı için Eurocode 8, betonarme için Eurocode 2, çelik için Eurocode 3, geoteknik için Eurocode 7; ulusal ekler ile.
 - **Yapı malzemeleri:** AB Yapı Malzemeleri Yönetmeliği (Construction Products Regulation) çerçevesinde uyumlaştırılmış EN standartları, performans beyanı ve **CE işareti**.
@@ -73,13 +78,20 @@ Platformun kuralları ayrı bir "ulusal standart" icat etmez; **AB ve uluslarara
 - **Kalite ve süreç yönetimi:** ISO 9001 (kalite), ISO 14001 (çevre), ISO 45001 (iş sağlığı ve güvenliği), ISO 19650 (BIM / bilgi yönetimi).
 - **Uygunluk değerlendirmesi:** Akredite laboratuvar ve onaylanmış kuruluşlar (ISO/IEC 17025, ISO/IEC 17065 çerçevesi).
 
-AB standartları güncellendiğinde platform kuralları da belirlenen geçiş süresi içinde güncellenir.
+Teknik taban kaynakları güncellendiğinde ulusal standardın teknik katmanı da belirlenen geçiş süresi içinde güncellenir; özelleştirme katmanı ise ulusal karar organınca ayrıca belirlenir.
 
-### 6.2 Kalite sınıfları (tabanın üstünde)
+### 6.2 Yerli girdi şartı (özelleştirmenin çekirdeği)
 
-AB/uluslararası uyum **asgari şarttır**. A/B/C sınıfları bu tabanın üzerinde ek performans gösterir (C = tam uyum, B ve A = artan dayanıklılık, enerji ve kalite performansı).
+- Ulusal standarda uygunluk, teknik tabanı karşılamanın yanında, malzeme ve bileşenlerin **belirlenecek bir oranının yerli üretim** olmasını ve onaylı tedarikçilerden alınmasını gerektirir.
+- Yerli girdiler de teknik taban gerekliliklerini (performans beyanı, test, CE eşdeğeri uygunluk) karşılamak zorundadır; yerli olmak kalite şartını hafifletmez.
+- Oran, kalem bazında ve kademeli belirlenir; yerli kapasitenin yetersiz olduğu kalemlerde geçici istisna tanınır.
+- Bu şart, teşvik mekanizmasının (Bölüm 7) ve endüstriyel tedarik yapısının (Bölüm 10) dayanağıdır. Gümrük birliği açısından risk notu için bkz. Bölüm 12.
 
-### 6.3 Değerlendirme başlıkları
+### 6.3 Kalite sınıfları (tabanın üstünde)
+
+Teknik taban ve yerli girdi şartına uyum **asgari şarttır**. A/B/C sınıfları bu tabanın üzerinde ek performans gösterir (C = tam uyum, B ve A = artan dayanıklılık, enerji ve kalite performansı).
+
+### 6.4 Değerlendirme başlıkları
 
 1. **Deprem dayanımı ve taşıyıcı sistem:** Zemin etüdü, Eurocode uyumlu statik proje, beton/donatı testleri, uygulama kontrolleri.
 2. **Malzeme kalitesi:** CE işaretli / performans beyanlı, izlenebilir malzeme; numune ve laboratuvar testleri.
@@ -97,7 +109,7 @@ AB/uluslararası uyum **asgari şarttır**. A/B/C sınıfları bu tabanın üzer
 
 Teşvikler **performansı kanıtlanmış** yüklenicilere ve projelere verilir ve **yerli girdilerle çalışır**.
 
-- **Yerli girdi şartı:** Kullanılan malzeme ve bileşenlerin belirlenecek bir oranının yerli üretim olması ve onaylı tedarikçilerden alınması. Yerli girdiler de **AB/uluslararası standartlara ve CE işaretine uygun** olmak zorundadır (bkz. Bölüm 12'deki gerilim).
+- **Yerli girdi şartı:** Ulusal standardın parçası olan yerli girdi şartını (Bölüm 6.2) karşılamak teşvikin ön koşuludur; asgari oranı aşan yerli girdi kullanımı ek puan getirir.
 - **Uygunluk:** Standart uyum puanı eşiğin üzerinde, sicili temiz, girdi maliyeti eşiğine uyan yükleniciler.
 - **Araçlar (örnek):** Harç/vergi kolaylıkları, kredi faiz desteği, hızlı izin süreci, "Onaylı Yapı" etiketi; yerli üreticiler için kapasite ve standart bileşen üretim destekleri.
 - **Puanlama:** Kalite skoru, yerli girdi oranı, eşik uyumu, şikâyet geçmişi, zamanında teslim, maliyet şeffaflığı, enerji sınıfı.
@@ -198,7 +210,8 @@ flowchart TD
 
 ## 12. Açık Sorular ve Riskler
 
-- **Yerli girdi şartı ile AB standartları / gümrük birliği / ayrımcılık yasağı gerilimi:** Teşviki yerli girdiye bağlamak; gümrük birliği kapsamında malların serbest dolaşımı, ithal ürünlere ayrımcılık yasağı ve uluslararası ticaret kuralları (ör. yerel içerik şartlarına ilişkin kısıtlar) ile çatışabilir. Ayrıca CE işaretli bir ithal ürünü yalnızca menşei nedeniyle dezavantajlı kılmak, standartların "aynı" olması ilkesiyle gerilim yaratır.
+- **Ulusal standardın konumlandırılması:** Standart, AB standardı olarak değil Türkiye'ye özelleştirilmiş ulusal standart olarak tanımlanır; teknik tabanın AB kaynaklarına dayanması nedeniyle iki katmanın hukuki ve teknik sınırı net yazılmalıdır.
+- **Yerli girdi şartı ile gümrük birliği / ayrımcılık yasağı gerilimi:** Teşviki yerli girdiye bağlamak; gümrük birliği kapsamında malların serbest dolaşımı, ithal ürünlere ayrımcılık yasağı ve uluslararası ticaret kuralları (ör. yerel içerik şartlarına ilişkin kısıtlar) ile çatışabilir. Yerli girdi şartı ulusal standardın parçası olarak tanımlandığı için, teknik tabanı karşılayan ithal ürünlerin yalnızca menşe nedeniyle standart dışı sayılması teknik ticaret engeli olarak değerlendirilebilir.
   - *Çözüm önerileri:* Teşviki menşe yerine ölçülebilir hedeflere bağlamak (ör. nakliye mesafesi/karbon ayak izi, tedarik sürekliliği, KOBİ üretici katılımı); yerli üreticiye üretim tarafında kapasite desteği vermek; yasal incelemeyle uyumlu bir "yerli katkı" tanımı yapmak; geçiş süreleri ve istisnalar.
 - **"Yetkiyi başka kurumdan almama" ile bakanlığa bağlılık arasındaki çelişki:** Platform yetkisini doğrudan kanundan alıyorsa, bakanlığın "asıl" olması ve yaptırımın bakanlıkça verilmesi, platformun özerkliğini zayıflatabilir veya yetkinin fiilen bakanlıkta olduğu izlenimi doğurabilir; tersine, platformun yaptırım kararı vermesi bakanlığın siyasi sorumluluğunu belirsizleştirir.
   - *Çözüm önerisi:* Kuruluş kanununda yetkilerin ikiye ayrılması — (a) **teknik/düzenleyici yetkiler** (standart, tespit, uyarı, sicil, teşvik) doğrudan ve özerk olarak platformda; (b) **ağır idari yaptırımlar** bakanlıkta, ancak platformun gerekçeli bildirimine dayalı, süreli ve gerekçe zorunlu karar usulüyle. Bakanlık–platform ilişkisi bireysel dosyaya talimat değil, protokol ve performans denetimi üzerinden kurulur.
@@ -218,7 +231,7 @@ flowchart TD
 
 1. Paydaş görüşmeleri (bakanlıklar, meslek odaları, müteahhit birlikleri, yapı malzemesi üreticileri, tüketici örgütleri)
 2. Kuruluş kanunu taslağı: yetki kaynağı, asıl–vekil protokolü, yaptırım dağılımı
-3. AB standartları uyum haritası (Eurocode, CE, EN/ISO) ve boşluk analizi
+3. Teknik taban haritası (Eurocode, CE, EN/ISO) ve Türkiye'ye özelleştirme katmanının tanımı
 4. Yerli girdi şartının ticaret hukuku açısından incelenmesi
 5. Yerli tedarik kapasitesi envanteri ve standart bileşen kataloğu taslağı
 6. Pilot kriter seti, girdi maliyeti eşiği ve maliyet modeli
