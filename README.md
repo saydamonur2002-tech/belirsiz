@@ -322,3 +322,6 @@ flowchart TD
 - **Karar:** Gelir vergisi ve damga vergisi desteği **yalnızca platform kapsamındaki KOBİ inşaatlarına** verilir. Maliyeti yılda ~12–24 mrd TL; işçilik maliyetinde net ücret üzerinden anlaşma yapıldığı varsayımıyla konut birim maliyetini %2,8–3,1 düşürür.
 - **Reddedilen alternatif:** Gelir vergisi istisnasının genişletilmesi. İstisnayı bekâr işçi yaşam maliyetine (A1) çekmenin maliyeti ~485 mrd TL, yoksulluk sınırına (A2) çekmenin ~1,24 trilyon TL. Geri dönüşler kaybın yalnızca %10–25'ini karşılıyor; devlet daha az topluyor.
 - Ayrıntı: [simulasyon/VERGI_SUBVANSIYON.md](simulasyon/VERGI_SUBVANSIYON.md)
+
+## 15. Varsayımsız değerlendirme (v14)
+Yalnız kaynaklı verilerle kanıtlanabilen konut birim maliyeti düşüşü: **alt sınır %0, üst sınır yaklaşık %6** (çimento ≤%1,6; hedefli vergi desteği ≤%2,7; bayi marjı ≤%2,1). Orta senaryodaki %14,8 kaynakla desteklenmiyor; taşeron, modüler ağ ve karma oynaklık katkıları hesaplanamıyor. Resmî İME ile yapılan backtest'te 6 aylık kural, sabit fiyatta zarar eden kohortları 87'den 15'e indiriyor; ortalama marj ~%12 (%30 değil). Alıcı fiyatı kohortların %73'ünde BIS konut artışının altında. Ayrıntı: [simulasyon/VARSAYIMSIZ.md](simulasyon/VARSAYIMSIZ.md)
